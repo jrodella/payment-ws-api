@@ -32,7 +32,64 @@ require_once('/path/to/payment-ws-api/init.php');
 
 ## Usage
 
-Coming soon.
+```php
+try {
+    $ctxMode = 'TEST';
+    $keyTest = '1111111111111111';
+    $keyProd = '2222222222222222';
+    $shopId = '12345678';
+
+    // proxy options if any
+    $options = array(
+        'proxy_host' => 'host',
+        'proxy_port' => '3128',
+        'proxy_login' => 'login',
+        'proxy_password' => 'password'
+    );
+
+    $wsApi = new \Lyranetwork\WsApi($options, $url);
+    $wsApi->init($shopId, $mode, $keyTest, $keyProd);
+
+    // example of getPaymentDetails call
+    $queryRequest = new \Lyranetwork\QueryRequest();
+    $queryRequest->setUuid($uuid); // a known transaction UUID
+
+    $getPaymentDetails = new \Lyranetwork\GetPaymentDetails($queryRequest);
+    $getPaymentDetails->setQueryRequest($queryRequest);
+
+    $requestId = $wsApi->setHeaders();
+
+    $getPaymentDetailsResponse = $wsApi->getPaymentDetails($getPaymentDetails);
+
+    $wsApi->checkAuthenticity();
+    $wsApi->checkResult(
+        $getPaymentDetailsResponse->getGetPaymentDetailsResult()->getCommonResponse(),
+        array(
+    'INITIAL', 'WAITING_AUTHORISATION', 'WAITING_AUTHORISATION_TO_VALIDATE', 'UNDER_VERIFICATION',
+    'AUTHORISED', 'AUTHORISED_TO_VALIDATE', 'CAPTURED', 'CAPTURE_FAILED'
+        ) // pending or accepted payment
+    );
+
+} catch(\SoapFault $f) {
+    log("[$requestId] SoapFault with code {$f->faultcode}: {$f->faultstring}.", Zend_Log::WARN);
+
+    // friendly message here 
+} catch(\UnexpectedValueException $e) {
+    log("[$requestId] getPaymentDetails error with code {$e->getCode()}: {$e->getMessage()}.", Zend_Log::ERR);
+
+    if ($e->getCode() === -1) {
+        // manage authentication error here
+    } elseif ($e->getCode() === 1) {
+        // merchant does not subscribe to WS option
+    } else {
+        // manage other unexpected response here
+    }
+} catch (Exception $e) {
+    log("[$requestId] Exception with code {$e->getCode()}: {$e->getMessage()}", Zend_Log::ERR);
+
+    // friendly message here 
+}
+```
 
 ## License
 
