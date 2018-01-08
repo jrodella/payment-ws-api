@@ -65,8 +65,8 @@ try {
     $wsApi->checkResult(
         $getPaymentDetailsResponse->getGetPaymentDetailsResult()->getCommonResponse(),
         array(
-    'INITIAL', 'WAITING_AUTHORISATION', 'WAITING_AUTHORISATION_TO_VALIDATE', 'UNDER_VERIFICATION',
-    'AUTHORISED', 'AUTHORISED_TO_VALIDATE', 'CAPTURED', 'CAPTURE_FAILED'
+            'INITIAL', 'WAITING_AUTHORISATION', 'WAITING_AUTHORISATION_TO_VALIDATE',
+            'UNDER_VERIFICATION', 'AUTHORISED', 'AUTHORISED_TO_VALIDATE', 'CAPTURED', 'CAPTURE_FAILED'
         ) // pending or accepted payment
     );
 
