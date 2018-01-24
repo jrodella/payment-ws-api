@@ -9,8 +9,10 @@
  * @copyright 2017 Lyra Network
  * @license   http://www.gnu.org/licenses/gpl.html GNU General Public License (GPL v3)
  */
+namespace Lyranetwork\Model;
 
-require_once(dirname(__FILE__) . '/lib/Lyranetwork/WsApiClassLoader.php');
-\Lyranetwork\WsApiClassLoader::register(true);
-
-require_once(dirname(__FILE__) . '/lib/Lyranetwork/WsApi.php');
+class CustStatus
+{
+    const _PRIVATE = 'PRIVATE';
+    const _COMPANY = 'COMPANY';
+}

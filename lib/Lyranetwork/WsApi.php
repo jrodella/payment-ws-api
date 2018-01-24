@@ -17,131 +17,6 @@ class WsApi extends \SoapClient
     const DATE_FORMAT = 'Y-m-d\TH:i:s\Z';
     const TIMEOUT = 30; // in seconds
 
-    /**
-     * @var array $classmap The defined classes
-     */
-    private static $classmap = array (
-        'cancelCapturedPayment' => 'Lyranetwork\\CancelCapturedPayment',
-        'commonRequest' => 'Lyranetwork\\CommonRequest',
-        'queryRequest' => 'Lyranetwork\\QueryRequest',
-        'cancelCapturedPaymentResponse' => 'Lyranetwork\\CancelCapturedPaymentResponse',
-        'cancelCapturedPaymentResult' => 'Lyranetwork\\CancelCapturedPaymentResult',
-        'commonResponse' => 'Lyranetwork\\CommonResponse',
-        'wsResponse' => 'Lyranetwork\\WsResponse',
-        'capturePayment' => 'Lyranetwork\\CapturePayment',
-        'settlementRequest' => 'Lyranetwork\\SettlementRequest',
-        'capturePaymentResponse' => 'Lyranetwork\\CapturePaymentResponse',
-        'capturePaymentResult' => 'Lyranetwork\\CapturePaymentResult',
-        'createTokenByIban' => 'Lyranetwork\\CreateTokenByIban',
-        'ibanRequest' => 'Lyranetwork\\IbanRequest',
-        'customerRequest' => 'Lyranetwork\\CustomerRequest',
-        'billingDetailsRequest' => 'Lyranetwork\\BillingDetailsRequest',
-        'shippingDetailsRequest' => 'Lyranetwork\\ShippingDetailsRequest',
-        'extraDetailsRequest' => 'Lyranetwork\\ExtraDetailsRequest',
-        'createTokenByIbanResponse' => 'Lyranetwork\\CreateTokenByIbanResponse',
-        'createTokenByIbanResult' => 'Lyranetwork\\CreateTokenByIbanResult',
-        'paymentResponse' => 'Lyranetwork\\PaymentResponse',
-        'orderResponse' => 'Lyranetwork\\OrderResponse',
-        'extInfo' => 'Lyranetwork\\ExtInfo',
-        'cardResponse' => 'Lyranetwork\\CardResponse',
-        'authorizationResponse' => 'Lyranetwork\\AuthorizationResponse',
-        'captureResponse' => 'Lyranetwork\\CaptureResponse',
-        'customerResponse' => 'Lyranetwork\\CustomerResponse',
-        'billingDetailsResponse' => 'Lyranetwork\\BillingDetailsResponse',
-        'shippingDetailsResponse' => 'Lyranetwork\\ShippingDetailsResponse',
-        'extraDetailsResponse' => 'Lyranetwork\\ExtraDetailsResponse',
-        'markResponse' => 'Lyranetwork\\MarkResponse',
-        'threeDSResponse' => 'Lyranetwork\\ThreeDSResponse',
-        'authenticationRequestData' => 'Lyranetwork\\AuthenticationRequestData',
-        'authenticationResultData' => 'Lyranetwork\\AuthenticationResultData',
-        'extraResponse' => 'Lyranetwork\\ExtraResponse',
-        'subscriptionResponse' => 'Lyranetwork\\SubscriptionResponse',
-        'fraudManagementResponse' => 'Lyranetwork\\FraudManagementResponse',
-        'riskControl' => 'Lyranetwork\\RiskControl',
-        'riskAnalysis' => 'Lyranetwork\\RiskAnalysis',
-        'riskAssessments' => 'Lyranetwork\\RiskAssessments',
-        'shoppingCartResponse' => 'Lyranetwork\\ShoppingCartResponse',
-        'cartItemInfo' => 'Lyranetwork\\CartItemInfo',
-        'reactivateToken' => 'Lyranetwork\\ReactivateToken',
-        'reactivateTokenResponse' => 'Lyranetwork\\ReactivateTokenResponse',
-        'reactivateTokenResult' => 'Lyranetwork\\ReactivateTokenResult',
-        'duplicatePayment' => 'Lyranetwork\\DuplicatePayment',
-        'paymentRequest' => 'Lyranetwork\\PaymentRequest',
-        'orderRequest' => 'Lyranetwork\\OrderRequest',
-        'duplicatePaymentResponse' => 'Lyranetwork\\DuplicatePaymentResponse',
-        'duplicatePaymentResult' => 'Lyranetwork\\DuplicatePaymentResult',
-        'cancelPayment' => 'Lyranetwork\\CancelPayment',
-        'cancelPaymentResponse' => 'Lyranetwork\\CancelPaymentResponse',
-        'cancelPaymentResult' => 'Lyranetwork\\CancelPaymentResult',
-        'checkThreeDSAuthentication' => 'Lyranetwork\\CheckThreeDSAuthentication',
-        'threeDSRequest' => 'Lyranetwork\\ThreeDSRequest',
-        'mpiExtensionRequest' => 'Lyranetwork\\MpiExtensionRequest',
-        'checkThreeDSAuthenticationResponse' => 'Lyranetwork\\CheckThreeDSAuthenticationResponse',
-        'checkThreeDSAuthenticationResult' => 'Lyranetwork\\CheckThreeDSAuthenticationResult',
-        'updatePayment' => 'Lyranetwork\\UpdatePayment',
-        'updatePaymentResponse' => 'Lyranetwork\\UpdatePaymentResponse',
-        'updatePaymentResult' => 'Lyranetwork\\UpdatePaymentResult',
-        'updatePaymentDetails' => 'Lyranetwork\\UpdatePaymentDetails',
-        'shoppingCartRequest' => 'Lyranetwork\\ShoppingCartRequest',
-        'updatePaymentDetailsResponse' => 'Lyranetwork\\UpdatePaymentDetailsResponse',
-        'updatePaymentDetailsResult' => 'Lyranetwork\\UpdatePaymentDetailsResult',
-        'getPaymentDetails' => 'Lyranetwork\\GetPaymentDetails',
-        'extendedResponseRequest' => 'Lyranetwork\\ExtendedResponseRequest',
-        'getPaymentDetailsResponse' => 'Lyranetwork\\GetPaymentDetailsResponse',
-        'getPaymentDetailsResult' => 'Lyranetwork\\GetPaymentDetailsResult',
-        'tokenResponse' => 'Lyranetwork\\TokenResponse',
-        'updateToken' => 'Lyranetwork\\UpdateToken',
-        'cardRequest' => 'Lyranetwork\\CardRequest',
-        'updateTokenResponse' => 'Lyranetwork\\UpdateTokenResponse',
-        'updateTokenResult' => 'Lyranetwork\\UpdateTokenResult',
-        'cancelSubscription' => 'Lyranetwork\\CancelSubscription',
-        'cancelSubscriptionResponse' => 'Lyranetwork\\CancelSubscriptionResponse',
-        'cancelSubscriptionResult' => 'Lyranetwork\\CancelSubscriptionResult',
-        'refundPayment' => 'Lyranetwork\\RefundPayment',
-        'refundPaymentResponse' => 'Lyranetwork\\RefundPaymentResponse',
-        'refundPaymentResult' => 'Lyranetwork\\RefundPaymentResult',
-        'createTokenFromTransaction' => 'Lyranetwork\\CreateTokenFromTransaction',
-        'createTokenFromTransactionResponse' => 'Lyranetwork\\CreateTokenFromTransactionResponse',
-        'createTokenFromTransactionResult' => 'Lyranetwork\\CreateTokenFromTransactionResult',
-        'verifyThreeDSEnrollment' => 'Lyranetwork\\VerifyThreeDSEnrollment',
-        'techRequest' => 'Lyranetwork\\TechRequest',
-        'verifyThreeDSEnrollmentResponse' => 'Lyranetwork\\VerifyThreeDSEnrollmentResponse',
-        'verifyThreeDSEnrollmentResult' => 'Lyranetwork\\VerifyThreeDSEnrollmentResult',
-        'validatePayment' => 'Lyranetwork\\ValidatePayment',
-        'validatePaymentResponse' => 'Lyranetwork\\ValidatePaymentResponse',
-        'validatePaymentResult' => 'Lyranetwork\\ValidatePaymentResult',
-        'getPaymentUuid' => 'Lyranetwork\\GetPaymentUuid',
-        'legacyTransactionKeyRequest' => 'Lyranetwork\\LegacyTransactionKeyRequest',
-        'getPaymentUuidResponse' => 'Lyranetwork\\GetPaymentUuidResponse',
-        'legacyTransactionKeyResult' => 'Lyranetwork\\LegacyTransactionKeyResult',
-        'createPayment' => 'Lyranetwork\\CreatePayment',
-        'createPaymentResponse' => 'Lyranetwork\\CreatePaymentResponse',
-        'createPaymentResult' => 'Lyranetwork\\CreatePaymentResult',
-        'createSubscription' => 'Lyranetwork\\CreateSubscription',
-        'subscriptionRequest' => 'Lyranetwork\\SubscriptionRequest',
-        'createSubscriptionResponse' => 'Lyranetwork\\CreateSubscriptionResponse',
-        'createSubscriptionResult' => 'Lyranetwork\\CreateSubscriptionResult',
-        'getSubscriptionDetails' => 'Lyranetwork\\GetSubscriptionDetails',
-        'getSubscriptionDetailsResponse' => 'Lyranetwork\\GetSubscriptionDetailsResponse',
-        'getSubscriptionDetailsResult' => 'Lyranetwork\\GetSubscriptionDetailsResult',
-        'updateSubscription' => 'Lyranetwork\\UpdateSubscription',
-        'updateSubscriptionResponse' => 'Lyranetwork\\UpdateSubscriptionResponse',
-        'updateSubscriptionResult' => 'Lyranetwork\\UpdateSubscriptionResult',
-        'cancelToken' => 'Lyranetwork\\CancelToken',
-        'cancelTokenResponse' => 'Lyranetwork\\CancelTokenResponse',
-        'cancelTokenResult' => 'Lyranetwork\\CancelTokenResult',
-        'createToken' => 'Lyranetwork\\CreateToken',
-        'createTokenResponse' => 'Lyranetwork\\CreateTokenResponse',
-        'createTokenResult' => 'Lyranetwork\\CreateTokenResult',
-        'findPayments' => 'Lyranetwork\\FindPayments',
-        'findPaymentsResponse' => 'Lyranetwork\\FindPaymentsResponse',
-        'findPaymentsResult' => 'Lyranetwork\\FindPaymentsResult',
-        'transactionItem' => 'Lyranetwork\\TransactionItem',
-        'getTokenDetails' => 'Lyranetwork\\GetTokenDetails',
-        'getTokenDetailsResponse' => 'Lyranetwork\\GetTokenDetailsResponse',
-        'getTokenDetailsResult' => 'Lyranetwork\\GetTokenDetailsResult',
-    );
-
     private $shopId;
     private $mode;
     private $certificate;
@@ -154,7 +29,7 @@ class WsApi extends \SoapClient
      */
     public function __construct(array $options = array(), $wsdl = 'https://secure.payzen.eu/vads-ws/v5?wsdl')
     {
-        foreach (self::$classmap as $key => $value) {
+        foreach (WsApiClassLoader::getClassMap() as $key => $value) {
             if (! isset($options['classmap'][$key])) {
                 $options['classmap'][$key] = $value;
             }
@@ -313,11 +188,11 @@ class WsApi extends \SoapClient
     /**
      * Check response results (result code and expected transcation statuses if any).
      *
-     * @param \Lyranetwork\CommonResponse $commonResponse
+     * @param \Lyranetwork\Model\CommonResponse $commonResponse
      * @param array $expectedStatuses
      * @throws \UnexpectedValueException
      */
-    public function checkResult(\Lyranetwork\CommonResponse $commonResponse, array $expectedStatuses = array())
+    public function checkResult(\Lyranetwork\Model\CommonResponse $commonResponse, array $expectedStatuses = array())
     {
         if ($commonResponse->getResponseCode() !== 0) {
             throw new \UnexpectedValueException(
@@ -380,226 +255,226 @@ class WsApi extends \SoapClient
     }
 
     /**
-     * @param \Lyranetwork\CancelCapturedPayment $parameters
-     * @return \Lyranetwork\CancelCapturedPaymentResponse
+     * @param \Lyranetwork\Model\CancelCapturedPayment $parameters
+     * @return \Lyranetwork\Model\CancelCapturedPaymentResponse
      */
-    public function cancelCapturedPayment(\Lyranetwork\CancelCapturedPayment $parameters)
+    public function cancelCapturedPayment(\Lyranetwork\Model\CancelCapturedPayment $parameters)
     {
         return $this->__soapCall('cancelCapturedPayment', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\CapturePayment $parameters
-     * @return \Lyranetwork\CapturePaymentResponse
+     * @param \Lyranetwork\Model\CapturePayment $parameters
+     * @return \Lyranetwork\Model\CapturePaymentResponse
      */
-    public function capturePayment(\Lyranetwork\CapturePayment $parameters)
+    public function capturePayment(\Lyranetwork\Model\CapturePayment $parameters)
     {
         return $this->__soapCall('capturePayment', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\CreateTokenByIban $parameters
-     * @return \Lyranetwork\CreateTokenByIbanResponse
+     * @param \Lyranetwork\Model\CreateTokenByIban $parameters
+     * @return \Lyranetwork\Model\CreateTokenByIbanResponse
      */
-    public function createTokenByIban(\Lyranetwork\CreateTokenByIban $parameters)
+    public function createTokenByIban(\Lyranetwork\Model\CreateTokenByIban $parameters)
     {
         return $this->__soapCall('createTokenByIban', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\ReactivateToken $parameters
-     * @return \Lyranetwork\ReactivateTokenResponse
+     * @param \Lyranetwork\Model\ReactivateToken $parameters
+     * @return \Lyranetwork\Model\ReactivateTokenResponse
      */
-    public function reactivateToken(\Lyranetwork\ReactivateToken $parameters)
+    public function reactivateToken(\Lyranetwork\Model\ReactivateToken $parameters)
     {
         return $this->__soapCall('reactivateToken', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\DuplicatePayment $parameters
-     * @return \Lyranetwork\DuplicatePaymentResponse
+     * @param \Lyranetwork\Model\DuplicatePayment $parameters
+     * @return \Lyranetwork\Model\DuplicatePaymentResponse
      */
-    public function duplicatePayment(\Lyranetwork\DuplicatePayment $parameters)
+    public function duplicatePayment(\Lyranetwork\Model\DuplicatePayment $parameters)
     {
         return $this->__soapCall('duplicatePayment', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\CancelPayment $parameters
-     * @return \Lyranetwork\CancelPaymentResponse
+     * @param \Lyranetwork\Model\CancelPayment $parameters
+     * @return \Lyranetwork\Model\CancelPaymentResponse
      */
-    public function cancelPayment(\Lyranetwork\CancelPayment $parameters)
+    public function cancelPayment(\Lyranetwork\Model\CancelPayment $parameters)
     {
         return $this->__soapCall('cancelPayment', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\CheckThreeDSAuthentication $parameters
-     * @return \Lyranetwork\CheckThreeDSAuthenticationResponse
+     * @param \Lyranetwork\Model\CheckThreeDSAuthentication $parameters
+     * @return \Lyranetwork\Model\CheckThreeDSAuthenticationResponse
      */
-    public function checkThreeDSAuthentication(\Lyranetwork\CheckThreeDSAuthentication $parameters)
+    public function checkThreeDSAuthentication(\Lyranetwork\Model\CheckThreeDSAuthentication $parameters)
     {
         return $this->__soapCall('checkThreeDSAuthentication', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\UpdatePayment $parameters
-     * @return \Lyranetwork\UpdatePaymentResponse
+     * @param \Lyranetwork\Model\UpdatePayment $parameters
+     * @return \Lyranetwork\Model\UpdatePaymentResponse
      */
-    public function updatePayment(\Lyranetwork\UpdatePayment $parameters)
+    public function updatePayment(\Lyranetwork\Model\UpdatePayment $parameters)
     {
         return $this->__soapCall('updatePayment', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\UpdatePaymentDetails $parameters
-     * @return \Lyranetwork\UpdatePaymentDetailsResponse
+     * @param \Lyranetwork\Model\UpdatePaymentDetails $parameters
+     * @return \Lyranetwork\Model\UpdatePaymentDetailsResponse
      */
-    public function updatePaymentDetails(\Lyranetwork\UpdatePaymentDetails $parameters)
+    public function updatePaymentDetails(\Lyranetwork\Model\UpdatePaymentDetails $parameters)
     {
         return $this->__soapCall('updatePaymentDetails', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\GetPaymentDetails $parameters
-     * @return \Lyranetwork\GetPaymentDetailsResponse
+     * @param \Lyranetwork\Model\GetPaymentDetails $parameters
+     * @return \Lyranetwork\Model\GetPaymentDetailsResponse
      */
-    public function getPaymentDetails(\Lyranetwork\GetPaymentDetails $parameters)
+    public function getPaymentDetails(\Lyranetwork\Model\GetPaymentDetails $parameters)
     {
         return $this->__soapCall('getPaymentDetails', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\UpdateToken $parameters
-     * @return \Lyranetwork\UpdateTokenResponse
+     * @param \Lyranetwork\Model\UpdateToken $parameters
+     * @return \Lyranetwork\Model\UpdateTokenResponse
      */
-    public function updateToken(\Lyranetwork\UpdateToken $parameters)
+    public function updateToken(\Lyranetwork\Model\UpdateToken $parameters)
     {
         return $this->__soapCall('updateToken', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\CancelSubscription $parameters
-     * @return \Lyranetwork\CancelSubscriptionResponse
+     * @param \Lyranetwork\Model\CancelSubscription $parameters
+     * @return \Lyranetwork\Model\CancelSubscriptionResponse
      */
-    public function cancelSubscription(\Lyranetwork\CancelSubscription $parameters)
+    public function cancelSubscription(\Lyranetwork\Model\CancelSubscription $parameters)
     {
         return $this->__soapCall('cancelSubscription', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\RefundPayment $parameters
-     * @return \Lyranetwork\RefundPaymentResponse
+     * @param \Lyranetwork\Model\RefundPayment $parameters
+     * @return \Lyranetwork\Model\RefundPaymentResponse
      */
-    public function refundPayment(\Lyranetwork\RefundPayment $parameters)
+    public function refundPayment(\Lyranetwork\Model\RefundPayment $parameters)
     {
         return $this->__soapCall('refundPayment', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\CreateTokenFromTransaction $parameters
-     * @return \Lyranetwork\CreateTokenFromTransactionResponse
+     * @param \Lyranetwork\Model\CreateTokenFromTransaction $parameters
+     * @return \Lyranetwork\Model\CreateTokenFromTransactionResponse
      */
-    public function createTokenFromTransaction(\Lyranetwork\CreateTokenFromTransaction $parameters)
+    public function createTokenFromTransaction(\Lyranetwork\Model\CreateTokenFromTransaction $parameters)
     {
         return $this->__soapCall('createTokenFromTransaction', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\VerifyThreeDSEnrollment $parameters
-     * @return \Lyranetwork\VerifyThreeDSEnrollmentResponse
+     * @param \Lyranetwork\Model\VerifyThreeDSEnrollment $parameters
+     * @return \Lyranetwork\Model\VerifyThreeDSEnrollmentResponse
      */
-    public function verifyThreeDSEnrollment(\Lyranetwork\VerifyThreeDSEnrollment $parameters)
+    public function verifyThreeDSEnrollment(\Lyranetwork\Model\VerifyThreeDSEnrollment $parameters)
     {
         return $this->__soapCall('verifyThreeDSEnrollment', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\ValidatePayment $parameters
-     * @return \Lyranetwork\ValidatePaymentResponse
+     * @param \Lyranetwork\Model\ValidatePayment $parameters
+     * @return \Lyranetwork\Model\ValidatePaymentResponse
      */
-    public function validatePayment(\Lyranetwork\ValidatePayment $parameters)
+    public function validatePayment(\Lyranetwork\Model\ValidatePayment $parameters)
     {
         return $this->__soapCall('validatePayment', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\GetPaymentUuid $parameters
-     * @return \Lyranetwork\GetPaymentUuidResponse
+     * @param \Lyranetwork\Model\GetPaymentUuid $parameters
+     * @return \Lyranetwork\Model\GetPaymentUuidResponse
      */
-    public function getPaymentUuid(\Lyranetwork\GetPaymentUuid $parameters)
+    public function getPaymentUuid(\Lyranetwork\Model\GetPaymentUuid $parameters)
     {
         return $this->__soapCall('getPaymentUuid', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\CreatePayment $parameters
-     * @return \Lyranetwork\CreatePaymentResponse
+     * @param \Lyranetwork\Model\CreatePayment $parameters
+     * @return \Lyranetwork\Model\CreatePaymentResponse
      */
-    public function createPayment(\Lyranetwork\CreatePayment $parameters)
+    public function createPayment(\Lyranetwork\Model\CreatePayment $parameters)
     {
         return $this->__soapCall('createPayment', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\CreateSubscription $parameters
-     * @return \Lyranetwork\CreateSubscriptionResponse
+     * @param \Lyranetwork\Model\CreateSubscription $parameters
+     * @return \Lyranetwork\Model\CreateSubscriptionResponse
      */
-    public function createSubscription(\Lyranetwork\CreateSubscription $parameters)
+    public function createSubscription(\Lyranetwork\Model\CreateSubscription $parameters)
     {
         return $this->__soapCall('createSubscription', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\GetSubscriptionDetails $parameters
-     * @return \Lyranetwork\GetSubscriptionDetailsResponse
+     * @param \Lyranetwork\Model\GetSubscriptionDetails $parameters
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResponse
      */
-    public function getSubscriptionDetails(\Lyranetwork\GetSubscriptionDetails $parameters)
+    public function getSubscriptionDetails(\Lyranetwork\Model\GetSubscriptionDetails $parameters)
     {
         return $this->__soapCall('getSubscriptionDetails', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\UpdateSubscription $parameters
-     * @return \Lyranetwork\UpdateSubscriptionResponse
+     * @param \Lyranetwork\Model\UpdateSubscription $parameters
+     * @return \Lyranetwork\Model\UpdateSubscriptionResponse
      */
-    public function updateSubscription(\Lyranetwork\UpdateSubscription $parameters)
+    public function updateSubscription(\Lyranetwork\Model\UpdateSubscription $parameters)
     {
         return $this->__soapCall('updateSubscription', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\CancelToken $parameters
-     * @return \Lyranetwork\CancelTokenResponse
+     * @param \Lyranetwork\Model\CancelToken $parameters
+     * @return \Lyranetwork\Model\CancelTokenResponse
      */
-    public function cancelToken(\Lyranetwork\CancelToken $parameters)
+    public function cancelToken(\Lyranetwork\Model\CancelToken $parameters)
     {
         return $this->__soapCall('cancelToken', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\CreateToken $parameters
-     * @return \Lyranetwork\CreateTokenResponse
+     * @param \Lyranetwork\Model\CreateToken $parameters
+     * @return \Lyranetwork\Model\CreateTokenResponse
      */
-    public function createToken(\Lyranetwork\CreateToken $parameters)
+    public function createToken(\Lyranetwork\Model\CreateToken $parameters)
     {
         return $this->__soapCall('createToken', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\FindPayments $parameters
-     * @return \Lyranetwork\FindPaymentsResponse
+     * @param \Lyranetwork\Model\FindPayments $parameters
+     * @return \Lyranetwork\Model\FindPaymentsResponse
      */
-    public function findPayments(\Lyranetwork\FindPayments $parameters)
+    public function findPayments(\Lyranetwork\Model\FindPayments $parameters)
     {
         return $this->__soapCall('findPayments', array($parameters));
     }
 
     /**
-     * @param \Lyranetwork\GetTokenDetails $parameters
-     * @return \Lyranetwork\GetTokenDetailsResponse
+     * @param \Lyranetwork\Model\GetTokenDetails $parameters
+     * @return \Lyranetwork\Model\GetTokenDetailsResponse
      */
-    public function getTokenDetails(\Lyranetwork\GetTokenDetails $parameters)
+    public function getTokenDetails(\Lyranetwork\Model\GetTokenDetails $parameters)
     {
         return $this->__soapCall('getTokenDetails', array($parameters));
     }

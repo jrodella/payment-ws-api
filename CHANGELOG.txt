@@ -1,2 +1,2 @@
-1.0.0, 2017-11-06:
+1.0.0, 2018-02-12:
 - New common API to manage payment integration by SOAP WS.

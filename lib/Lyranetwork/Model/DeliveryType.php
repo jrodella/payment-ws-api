@@ -9,8 +9,13 @@
  * @copyright 2017 Lyra Network
  * @license   http://www.gnu.org/licenses/gpl.html GNU General Public License (GPL v3)
  */
+namespace Lyranetwork\Model;
 
-require_once(dirname(__FILE__) . '/lib/Lyranetwork/WsApiClassLoader.php');
-\Lyranetwork\WsApiClassLoader::register(true);
-
-require_once(dirname(__FILE__) . '/lib/Lyranetwork/WsApi.php');
+class DeliveryType
+{
+    const _RECLAIM_IN_SHOP = 'RECLAIM_IN_SHOP';
+    const _RELAY_POINT = 'RELAY_POINT';
+    const _RECLAIM_IN_STATION = 'RECLAIM_IN_STATION';
+    const _PACKAGE_DELIVERY_COMPANY = 'PACKAGE_DELIVERY_COMPANY';
+    const _ETICKET = 'ETICKET';
+}
