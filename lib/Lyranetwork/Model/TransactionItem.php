@@ -48,7 +48,7 @@ class TransactionItem
 
     /**
      * @param string $transactionUuid
-     * @return \Lyranetwork\TransactionItem
+     * @return \Lyranetwork\Model\TransactionItem
      */
     public function setTransactionUuid($transactionUuid)
     {
@@ -66,7 +66,7 @@ class TransactionItem
 
     /**
      * @param string $transactionStatusLabel
-     * @return \Lyranetwork\TransactionItem
+     * @return \Lyranetwork\Model\TransactionItem
      */
     public function setTransactionStatusLabel($transactionStatusLabel)
     {
@@ -84,7 +84,7 @@ class TransactionItem
 
     /**
      * @param int $amount
-     * @return \Lyranetwork\TransactionItem
+     * @return \Lyranetwork\Model\TransactionItem
      */
     public function setAmount($amount)
     {
@@ -102,7 +102,7 @@ class TransactionItem
 
     /**
      * @param int $currency
-     * @return \Lyranetwork\TransactionItem
+     * @return \Lyranetwork\Model\TransactionItem
      */
     public function setCurrency($currency)
     {
@@ -128,7 +128,7 @@ class TransactionItem
 
     /**
      * @param \DateTime $expectedCaptureDate
-     * @return \Lyranetwork\TransactionItem
+     * @return \Lyranetwork\Model\TransactionItem
      */
     public function setExpectedCaptureDate(\DateTime $expectedCaptureDate = null)
     {

@@ -33,7 +33,7 @@ class ExtendedResponseRequest
 
     /**
      * @param boolean $isNsuRequested
-     * @return \Lyranetwork\ExtendedResponseRequest
+     * @return \Lyranetwork\Model\ExtendedResponseRequest
      */
     public function setIsNsuRequested($isNsuRequested)
     {
@@ -51,7 +51,7 @@ class ExtendedResponseRequest
 
     /**
      * @param boolean $isWalletRequested
-     * @return \Lyranetwork\ExtendedResponseRequest
+     * @return \Lyranetwork\Model\ExtendedResponseRequest
      */
     public function setIsWalletRequested($isWalletRequested)
     {

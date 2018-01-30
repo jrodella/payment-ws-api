@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class CancelTokenResult
 {
     /**
-     * @var \Lyranetwork\CommonResponse $commonResponse
+     * @var \Lyranetwork\Model\CommonResponse $commonResponse
      */
     private $commonResponse = null;
 
     /**
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function getCommonResponse()
     {
@@ -27,8 +27,8 @@ class CancelTokenResult
     }
 
     /**
-     * @param \Lyranetwork\CommonResponse $commonResponse
-     * @return \Lyranetwork\CancelTokenResult
+     * @param \Lyranetwork\Model\CommonResponse $commonResponse
+     * @return \Lyranetwork\Model\CancelTokenResult
      */
     public function setCommonResponse($commonResponse)
     {

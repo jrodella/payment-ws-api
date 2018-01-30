@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class CreateTokenResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\CreateTokenResult $createTokenResult
+     * @var \Lyranetwork\Model\CreateTokenResult $createTokenResult
      */
     private $createTokenResult = null;
 
     /**
-     * @return \Lyranetwork\CreateTokenResult
+     * @return \Lyranetwork\Model\CreateTokenResult
      */
     public function getCreateTokenResult()
     {
@@ -27,8 +27,8 @@ class CreateTokenResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\CreateTokenResult $createTokenResult
-     * @return \Lyranetwork\CreateTokenResponse
+     * @param \Lyranetwork\Model\CreateTokenResult $createTokenResult
+     * @return \Lyranetwork\Model\CreateTokenResponse
      */
     public function setCreateTokenResult($createTokenResult)
     {

@@ -38,7 +38,7 @@ class ExtraResponse
 
     /**
      * @param string $paymentOptionCode
-     * @return \Lyranetwork\ExtraResponse
+     * @return \Lyranetwork\Model\ExtraResponse
      */
     public function setPaymentOptionCode($paymentOptionCode)
     {
@@ -56,7 +56,7 @@ class ExtraResponse
 
     /**
      * @param int $paymentOptionOccNumber
-     * @return \Lyranetwork\ExtraResponse
+     * @return \Lyranetwork\Model\ExtraResponse
      */
     public function setPaymentOptionOccNumber($paymentOptionOccNumber)
     {
@@ -74,7 +74,7 @@ class ExtraResponse
 
     /**
      * @param string $boletoPdfUrl
-     * @return \Lyranetwork\ExtraResponse
+     * @return \Lyranetwork\Model\ExtraResponse
      */
     public function setBoletoPdfUrl($boletoPdfUrl)
     {

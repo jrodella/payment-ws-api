@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class GetPaymentUuid
 {
     /**
-     * @var \Lyranetwork\LegacyTransactionKeyRequest $legacyTransactionKeyRequest
+     * @var \Lyranetwork\Model\LegacyTransactionKeyRequest $legacyTransactionKeyRequest
      */
     private $legacyTransactionKeyRequest = null;
 
     /**
-     * @return \Lyranetwork\LegacyTransactionKeyRequest
+     * @return \Lyranetwork\Model\LegacyTransactionKeyRequest
      */
     public function getLegacyTransactionKeyRequest()
     {
@@ -27,8 +27,8 @@ class GetPaymentUuid
     }
 
     /**
-     * @param \Lyranetwork\LegacyTransactionKeyRequest $legacyTransactionKeyRequest
-     * @return \Lyranetwork\GetPaymentUuid
+     * @param \Lyranetwork\Model\LegacyTransactionKeyRequest $legacyTransactionKeyRequest
+     * @return \Lyranetwork\Model\GetPaymentUuid
      */
     public function setLegacyTransactionKeyRequest($legacyTransactionKeyRequest)
     {

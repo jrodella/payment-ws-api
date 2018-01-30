@@ -14,17 +14,17 @@ namespace Lyranetwork\Model;
 class GetPaymentDetails
 {
     /**
-     * @var \Lyranetwork\QueryRequest $queryRequest
+     * @var \Lyranetwork\Model\QueryRequest $queryRequest
      */
     private $queryRequest = null;
 
     /**
-     * @var \Lyranetwork\ExtendedResponseRequest $extendedResponseRequest
+     * @var \Lyranetwork\Model\ExtendedResponseRequest $extendedResponseRequest
      */
     private $extendedResponseRequest = null;
 
     /**
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function getQueryRequest()
     {
@@ -32,8 +32,8 @@ class GetPaymentDetails
     }
 
     /**
-     * @param \Lyranetwork\QueryRequest $queryRequest
-     * @return \Lyranetwork\GetPaymentDetails
+     * @param \Lyranetwork\Model\QueryRequest $queryRequest
+     * @return \Lyranetwork\Model\GetPaymentDetails
      */
     public function setQueryRequest($queryRequest)
     {
@@ -42,7 +42,7 @@ class GetPaymentDetails
     }
 
     /**
-     * @return \Lyranetwork\ExtendedResponseRequest
+     * @return \Lyranetwork\Model\ExtendedResponseRequest
      */
     public function getExtendedResponseRequest()
     {
@@ -50,8 +50,8 @@ class GetPaymentDetails
     }
 
     /**
-     * @param \Lyranetwork\ExtendedResponseRequest $extendedResponseRequest
-     * @return \Lyranetwork\GetPaymentDetails
+     * @param \Lyranetwork\Model\ExtendedResponseRequest $extendedResponseRequest
+     * @return \Lyranetwork\Model\GetPaymentDetails
      */
     public function setExtendedResponseRequest($extendedResponseRequest)
     {

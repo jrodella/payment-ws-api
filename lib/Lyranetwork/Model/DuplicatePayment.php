@@ -14,27 +14,27 @@ namespace Lyranetwork\Model;
 class DuplicatePayment
 {
     /**
-     * @var \Lyranetwork\CommonRequest $commonRequest
+     * @var \Lyranetwork\Model\CommonRequest $commonRequest
      */
     private $commonRequest = null;
 
     /**
-     * @var \Lyranetwork\PaymentRequest $paymentRequest
+     * @var \Lyranetwork\Model\PaymentRequest $paymentRequest
      */
     private $paymentRequest = null;
 
     /**
-     * @var \Lyranetwork\OrderRequest $orderRequest
+     * @var \Lyranetwork\Model\OrderRequest $orderRequest
      */
     private $orderRequest = null;
 
     /**
-     * @var \Lyranetwork\QueryRequest $queryRequest
+     * @var \Lyranetwork\Model\QueryRequest $queryRequest
      */
     private $queryRequest = null;
 
     /**
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function getCommonRequest()
     {
@@ -42,8 +42,8 @@ class DuplicatePayment
     }
 
     /**
-     * @param \Lyranetwork\CommonRequest $commonRequest
-     * @return \Lyranetwork\DuplicatePayment
+     * @param \Lyranetwork\Model\CommonRequest $commonRequest
+     * @return \Lyranetwork\Model\DuplicatePayment
      */
     public function setCommonRequest($commonRequest)
     {
@@ -52,7 +52,7 @@ class DuplicatePayment
     }
 
     /**
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function getPaymentRequest()
     {
@@ -60,8 +60,8 @@ class DuplicatePayment
     }
 
     /**
-     * @param \Lyranetwork\PaymentRequest $paymentRequest
-     * @return \Lyranetwork\DuplicatePayment
+     * @param \Lyranetwork\Model\PaymentRequest $paymentRequest
+     * @return \Lyranetwork\Model\DuplicatePayment
      */
     public function setPaymentRequest($paymentRequest)
     {
@@ -70,7 +70,7 @@ class DuplicatePayment
     }
 
     /**
-     * @return \Lyranetwork\OrderRequest
+     * @return \Lyranetwork\Model\OrderRequest
      */
     public function getOrderRequest()
     {
@@ -78,8 +78,8 @@ class DuplicatePayment
     }
 
     /**
-     * @param \Lyranetwork\OrderRequest $orderRequest
-     * @return \Lyranetwork\DuplicatePayment
+     * @param \Lyranetwork\Model\OrderRequest $orderRequest
+     * @return \Lyranetwork\Model\DuplicatePayment
      */
     public function setOrderRequest($orderRequest)
     {
@@ -88,7 +88,7 @@ class DuplicatePayment
     }
 
     /**
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function getQueryRequest()
     {
@@ -96,8 +96,8 @@ class DuplicatePayment
     }
 
     /**
-     * @param \Lyranetwork\QueryRequest $queryRequest
-     * @return \Lyranetwork\DuplicatePayment
+     * @param \Lyranetwork\Model\QueryRequest $queryRequest
+     * @return \Lyranetwork\Model\DuplicatePayment
      */
     public function setQueryRequest($queryRequest)
     {

@@ -14,72 +14,72 @@ namespace Lyranetwork\Model;
 class CreateTokenByIbanResult
 {
     /**
-     * @var \Lyranetwork\CommonResponse $commonResponse
+     * @var \Lyranetwork\Model\CommonResponse $commonResponse
      */
     private $commonResponse = null;
 
     /**
-     * @var \Lyranetwork\PaymentResponse $paymentResponse
+     * @var \Lyranetwork\Model\PaymentResponse $paymentResponse
      */
     private $paymentResponse = null;
 
     /**
-     * @var \Lyranetwork\OrderResponse $orderResponse
+     * @var \Lyranetwork\Model\OrderResponse $orderResponse
      */
     private $orderResponse = null;
 
     /**
-     * @var \Lyranetwork\CardResponse $cardResponse
+     * @var \Lyranetwork\Model\CardResponse $cardResponse
      */
     private $cardResponse = null;
 
     /**
-     * @var \Lyranetwork\AuthorizationResponse $authorizationResponse
+     * @var \Lyranetwork\Model\AuthorizationResponse $authorizationResponse
      */
     private $authorizationResponse = null;
 
     /**
-     * @var \Lyranetwork\CaptureResponse $captureResponse
+     * @var \Lyranetwork\Model\CaptureResponse $captureResponse
      */
     private $captureResponse = null;
 
     /**
-     * @var \Lyranetwork\CustomerResponse $customerResponse
+     * @var \Lyranetwork\Model\CustomerResponse $customerResponse
      */
     private $customerResponse = null;
 
     /**
-     * @var \Lyranetwork\MarkResponse $markResponse
+     * @var \Lyranetwork\Model\MarkResponse $markResponse
      */
     private $markResponse = null;
 
     /**
-     * @var \Lyranetwork\ThreeDSResponse $threeDSResponse
+     * @var \Lyranetwork\Model\ThreeDSResponse $threeDSResponse
      */
     private $threeDSResponse = null;
 
     /**
-     * @var \Lyranetwork\ExtraResponse $extraResponse
+     * @var \Lyranetwork\Model\ExtraResponse $extraResponse
      */
     private $extraResponse = null;
 
     /**
-     * @var \Lyranetwork\SubscriptionResponse $subscriptionResponse
+     * @var \Lyranetwork\Model\SubscriptionResponse $subscriptionResponse
      */
     private $subscriptionResponse = null;
 
     /**
-     * @var \Lyranetwork\FraudManagementResponse $fraudManagementResponse
+     * @var \Lyranetwork\Model\FraudManagementResponse $fraudManagementResponse
      */
     private $fraudManagementResponse = null;
 
     /**
-     * @var \Lyranetwork\ShoppingCartResponse $shoppingCartResponse
+     * @var \Lyranetwork\Model\ShoppingCartResponse $shoppingCartResponse
      */
     private $shoppingCartResponse = null;
 
     /**
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function getCommonResponse()
     {
@@ -87,8 +87,8 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @param \Lyranetwork\CommonResponse $commonResponse
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @param \Lyranetwork\Model\CommonResponse $commonResponse
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function setCommonResponse($commonResponse)
     {
@@ -97,7 +97,7 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function getPaymentResponse()
     {
@@ -105,8 +105,8 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @param \Lyranetwork\PaymentResponse $paymentResponse
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @param \Lyranetwork\Model\PaymentResponse $paymentResponse
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function setPaymentResponse($paymentResponse)
     {
@@ -115,7 +115,7 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @return \Lyranetwork\OrderResponse
+     * @return \Lyranetwork\Model\OrderResponse
      */
     public function getOrderResponse()
     {
@@ -123,8 +123,8 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @param \Lyranetwork\OrderResponse $orderResponse
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @param \Lyranetwork\Model\OrderResponse $orderResponse
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function setOrderResponse($orderResponse)
     {
@@ -133,7 +133,7 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @return \Lyranetwork\CardResponse
+     * @return \Lyranetwork\Model\CardResponse
      */
     public function getCardResponse()
     {
@@ -141,8 +141,8 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @param \Lyranetwork\CardResponse $cardResponse
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @param \Lyranetwork\Model\CardResponse $cardResponse
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function setCardResponse($cardResponse)
     {
@@ -151,7 +151,7 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @return \Lyranetwork\AuthorizationResponse
+     * @return \Lyranetwork\Model\AuthorizationResponse
      */
     public function getAuthorizationResponse()
     {
@@ -159,8 +159,8 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @param \Lyranetwork\AuthorizationResponse $authorizationResponse
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @param \Lyranetwork\Model\AuthorizationResponse $authorizationResponse
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function setAuthorizationResponse($authorizationResponse)
     {
@@ -169,7 +169,7 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @return \Lyranetwork\CaptureResponse
+     * @return \Lyranetwork\Model\CaptureResponse
      */
     public function getCaptureResponse()
     {
@@ -177,8 +177,8 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @param \Lyranetwork\CaptureResponse $captureResponse
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @param \Lyranetwork\Model\CaptureResponse $captureResponse
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function setCaptureResponse($captureResponse)
     {
@@ -187,7 +187,7 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @return \Lyranetwork\CustomerResponse
+     * @return \Lyranetwork\Model\CustomerResponse
      */
     public function getCustomerResponse()
     {
@@ -195,8 +195,8 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @param \Lyranetwork\CustomerResponse $customerResponse
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @param \Lyranetwork\Model\CustomerResponse $customerResponse
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function setCustomerResponse($customerResponse)
     {
@@ -205,7 +205,7 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @return \Lyranetwork\MarkResponse
+     * @return \Lyranetwork\Model\MarkResponse
      */
     public function getMarkResponse()
     {
@@ -213,8 +213,8 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @param \Lyranetwork\MarkResponse $markResponse
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @param \Lyranetwork\Model\MarkResponse $markResponse
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function setMarkResponse($markResponse)
     {
@@ -223,7 +223,7 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @return \Lyranetwork\ThreeDSResponse
+     * @return \Lyranetwork\Model\ThreeDSResponse
      */
     public function getThreeDSResponse()
     {
@@ -231,8 +231,8 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @param \Lyranetwork\ThreeDSResponse $threeDSResponse
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @param \Lyranetwork\Model\ThreeDSResponse $threeDSResponse
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function setThreeDSResponse($threeDSResponse)
     {
@@ -241,7 +241,7 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @return \Lyranetwork\ExtraResponse
+     * @return \Lyranetwork\Model\ExtraResponse
      */
     public function getExtraResponse()
     {
@@ -249,8 +249,8 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @param \Lyranetwork\ExtraResponse $extraResponse
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @param \Lyranetwork\Model\ExtraResponse $extraResponse
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function setExtraResponse($extraResponse)
     {
@@ -259,7 +259,7 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function getSubscriptionResponse()
     {
@@ -267,8 +267,8 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @param \Lyranetwork\SubscriptionResponse $subscriptionResponse
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @param \Lyranetwork\Model\SubscriptionResponse $subscriptionResponse
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function setSubscriptionResponse($subscriptionResponse)
     {
@@ -277,7 +277,7 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @return \Lyranetwork\FraudManagementResponse
+     * @return \Lyranetwork\Model\FraudManagementResponse
      */
     public function getFraudManagementResponse()
     {
@@ -285,8 +285,8 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @param \Lyranetwork\FraudManagementResponse $fraudManagementResponse
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @param \Lyranetwork\Model\FraudManagementResponse $fraudManagementResponse
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function setFraudManagementResponse($fraudManagementResponse)
     {
@@ -295,7 +295,7 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @return \Lyranetwork\ShoppingCartResponse
+     * @return \Lyranetwork\Model\ShoppingCartResponse
      */
     public function getShoppingCartResponse()
     {
@@ -303,8 +303,8 @@ class CreateTokenByIbanResult
     }
 
     /**
-     * @param \Lyranetwork\ShoppingCartResponse $shoppingCartResponse
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @param \Lyranetwork\Model\ShoppingCartResponse $shoppingCartResponse
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function setShoppingCartResponse($shoppingCartResponse)
     {

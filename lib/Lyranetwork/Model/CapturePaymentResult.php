@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class CapturePaymentResult
 {
     /**
-     * @var \Lyranetwork\CommonResponse $commonResponse
+     * @var \Lyranetwork\Model\CommonResponse $commonResponse
      */
     private $commonResponse = null;
 
     /**
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function getCommonResponse()
     {
@@ -27,8 +27,8 @@ class CapturePaymentResult
     }
 
     /**
-     * @param \Lyranetwork\CommonResponse $commonResponse
-     * @return \Lyranetwork\CapturePaymentResult
+     * @param \Lyranetwork\Model\CommonResponse $commonResponse
+     * @return \Lyranetwork\Model\CapturePaymentResult
      */
     public function setCommonResponse($commonResponse)
     {

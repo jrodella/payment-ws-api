@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class CapturePayment
 {
     /**
-     * @var \Lyranetwork\SettlementRequest $settlementRequest
+     * @var \Lyranetwork\Model\SettlementRequest $settlementRequest
      */
     private $settlementRequest = null;
 
     /**
-     * @return \Lyranetwork\SettlementRequest
+     * @return \Lyranetwork\Model\SettlementRequest
      */
     public function getSettlementRequest()
     {
@@ -27,8 +27,8 @@ class CapturePayment
     }
 
     /**
-     * @param \Lyranetwork\SettlementRequest $settlementRequest
-     * @return \Lyranetwork\CapturePayment
+     * @param \Lyranetwork\Model\SettlementRequest $settlementRequest
+     * @return \Lyranetwork\Model\CapturePayment
      */
     public function setSettlementRequest($settlementRequest)
     {

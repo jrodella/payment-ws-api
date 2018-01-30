@@ -14,22 +14,22 @@ namespace Lyranetwork\Model;
 class CustomerRequest
 {
     /**
-     * @var \Lyranetwork\BillingDetailsRequest $billingDetails
+     * @var \Lyranetwork\Model\BillingDetailsRequest $billingDetails
      */
     private $billingDetails = null;
 
     /**
-     * @var \Lyranetwork\ShippingDetailsRequest $shippingDetails
+     * @var \Lyranetwork\Model\ShippingDetailsRequest $shippingDetails
      */
     private $shippingDetails = null;
 
     /**
-     * @var \Lyranetwork\ExtraDetailsRequest $extraDetails
+     * @var \Lyranetwork\Model\ExtraDetailsRequest $extraDetails
      */
     private $extraDetails = null;
 
     /**
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function getBillingDetails()
     {
@@ -37,8 +37,8 @@ class CustomerRequest
     }
 
     /**
-     * @param \Lyranetwork\BillingDetailsRequest $billingDetails
-     * @return \Lyranetwork\CustomerRequest
+     * @param \Lyranetwork\Model\BillingDetailsRequest $billingDetails
+     * @return \Lyranetwork\Model\CustomerRequest
      */
     public function setBillingDetails($billingDetails)
     {
@@ -47,7 +47,7 @@ class CustomerRequest
     }
 
     /**
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function getShippingDetails()
     {
@@ -55,8 +55,8 @@ class CustomerRequest
     }
 
     /**
-     * @param \Lyranetwork\ShippingDetailsRequest $shippingDetails
-     * @return \Lyranetwork\CustomerRequest
+     * @param \Lyranetwork\Model\ShippingDetailsRequest $shippingDetails
+     * @return \Lyranetwork\Model\CustomerRequest
      */
     public function setShippingDetails($shippingDetails)
     {
@@ -65,7 +65,7 @@ class CustomerRequest
     }
 
     /**
-     * @return \Lyranetwork\ExtraDetailsRequest
+     * @return \Lyranetwork\Model\ExtraDetailsRequest
      */
     public function getExtraDetails()
     {
@@ -73,8 +73,8 @@ class CustomerRequest
     }
 
     /**
-     * @param \Lyranetwork\ExtraDetailsRequest $extraDetails
-     * @return \Lyranetwork\CustomerRequest
+     * @param \Lyranetwork\Model\ExtraDetailsRequest $extraDetails
+     * @return \Lyranetwork\Model\CustomerRequest
      */
     public function setExtraDetails($extraDetails)
     {

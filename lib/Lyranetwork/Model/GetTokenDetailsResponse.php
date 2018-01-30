@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class GetTokenDetailsResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\GetTokenDetailsResult $getTokenDetailsResult
+     * @var \Lyranetwork\Model\GetTokenDetailsResult $getTokenDetailsResult
      */
     private $getTokenDetailsResult = null;
 
     /**
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function getGetTokenDetailsResult()
     {
@@ -27,8 +27,8 @@ class GetTokenDetailsResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\GetTokenDetailsResult $getTokenDetailsResult
-     * @return \Lyranetwork\GetTokenDetailsResponse
+     * @param \Lyranetwork\Model\GetTokenDetailsResult $getTokenDetailsResult
+     * @return \Lyranetwork\Model\GetTokenDetailsResponse
      */
     public function setGetTokenDetailsResult($getTokenDetailsResult)
     {

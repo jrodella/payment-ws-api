@@ -14,62 +14,62 @@ namespace Lyranetwork\Model;
 class RefundPaymentResult
 {
     /**
-     * @var \Lyranetwork\CommonResponse $commonResponse
+     * @var \Lyranetwork\Model\CommonResponse $commonResponse
      */
     private $commonResponse = null;
 
     /**
-     * @var \Lyranetwork\PaymentResponse $paymentResponse
+     * @var \Lyranetwork\Model\PaymentResponse $paymentResponse
      */
     private $paymentResponse = null;
 
     /**
-     * @var \Lyranetwork\OrderResponse $orderResponse
+     * @var \Lyranetwork\Model\OrderResponse $orderResponse
      */
     private $orderResponse = null;
 
     /**
-     * @var \Lyranetwork\CardResponse $cardResponse
+     * @var \Lyranetwork\Model\CardResponse $cardResponse
      */
     private $cardResponse = null;
 
     /**
-     * @var \Lyranetwork\AuthorizationResponse $authorizationResponse
+     * @var \Lyranetwork\Model\AuthorizationResponse $authorizationResponse
      */
     private $authorizationResponse = null;
 
     /**
-     * @var \Lyranetwork\CaptureResponse $captureResponse
+     * @var \Lyranetwork\Model\CaptureResponse $captureResponse
      */
     private $captureResponse = null;
 
     /**
-     * @var \Lyranetwork\CustomerResponse $customerResponse
+     * @var \Lyranetwork\Model\CustomerResponse $customerResponse
      */
     private $customerResponse = null;
 
     /**
-     * @var \Lyranetwork\MarkResponse $markResponse
+     * @var \Lyranetwork\Model\MarkResponse $markResponse
      */
     private $markResponse = null;
 
     /**
-     * @var \Lyranetwork\ThreeDSResponse $threeDSResponse
+     * @var \Lyranetwork\Model\ThreeDSResponse $threeDSResponse
      */
     private $threeDSResponse = null;
 
     /**
-     * @var \Lyranetwork\ExtraResponse $extraResponse
+     * @var \Lyranetwork\Model\ExtraResponse $extraResponse
      */
     private $extraResponse = null;
 
     /**
-     * @var \Lyranetwork\FraudManagementResponse $fraudManagementResponse
+     * @var \Lyranetwork\Model\FraudManagementResponse $fraudManagementResponse
      */
     private $fraudManagementResponse = null;
 
     /**
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function getCommonResponse()
     {
@@ -77,8 +77,8 @@ class RefundPaymentResult
     }
 
     /**
-     * @param \Lyranetwork\CommonResponse $commonResponse
-     * @return \Lyranetwork\RefundPaymentResult
+     * @param \Lyranetwork\Model\CommonResponse $commonResponse
+     * @return \Lyranetwork\Model\RefundPaymentResult
      */
     public function setCommonResponse($commonResponse)
     {
@@ -87,7 +87,7 @@ class RefundPaymentResult
     }
 
     /**
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function getPaymentResponse()
     {
@@ -95,8 +95,8 @@ class RefundPaymentResult
     }
 
     /**
-     * @param \Lyranetwork\PaymentResponse $paymentResponse
-     * @return \Lyranetwork\RefundPaymentResult
+     * @param \Lyranetwork\Model\PaymentResponse $paymentResponse
+     * @return \Lyranetwork\Model\RefundPaymentResult
      */
     public function setPaymentResponse($paymentResponse)
     {
@@ -105,7 +105,7 @@ class RefundPaymentResult
     }
 
     /**
-     * @return \Lyranetwork\OrderResponse
+     * @return \Lyranetwork\Model\OrderResponse
      */
     public function getOrderResponse()
     {
@@ -113,8 +113,8 @@ class RefundPaymentResult
     }
 
     /**
-     * @param \Lyranetwork\OrderResponse $orderResponse
-     * @return \Lyranetwork\RefundPaymentResult
+     * @param \Lyranetwork\Model\OrderResponse $orderResponse
+     * @return \Lyranetwork\Model\RefundPaymentResult
      */
     public function setOrderResponse($orderResponse)
     {
@@ -123,7 +123,7 @@ class RefundPaymentResult
     }
 
     /**
-     * @return \Lyranetwork\CardResponse
+     * @return \Lyranetwork\Model\CardResponse
      */
     public function getCardResponse()
     {
@@ -131,8 +131,8 @@ class RefundPaymentResult
     }
 
     /**
-     * @param \Lyranetwork\CardResponse $cardResponse
-     * @return \Lyranetwork\RefundPaymentResult
+     * @param \Lyranetwork\Model\CardResponse $cardResponse
+     * @return \Lyranetwork\Model\RefundPaymentResult
      */
     public function setCardResponse($cardResponse)
     {
@@ -141,7 +141,7 @@ class RefundPaymentResult
     }
 
     /**
-     * @return \Lyranetwork\AuthorizationResponse
+     * @return \Lyranetwork\Model\AuthorizationResponse
      */
     public function getAuthorizationResponse()
     {
@@ -149,8 +149,8 @@ class RefundPaymentResult
     }
 
     /**
-     * @param \Lyranetwork\AuthorizationResponse $authorizationResponse
-     * @return \Lyranetwork\RefundPaymentResult
+     * @param \Lyranetwork\Model\AuthorizationResponse $authorizationResponse
+     * @return \Lyranetwork\Model\RefundPaymentResult
      */
     public function setAuthorizationResponse($authorizationResponse)
     {
@@ -159,7 +159,7 @@ class RefundPaymentResult
     }
 
     /**
-     * @return \Lyranetwork\CaptureResponse
+     * @return \Lyranetwork\Model\CaptureResponse
      */
     public function getCaptureResponse()
     {
@@ -167,8 +167,8 @@ class RefundPaymentResult
     }
 
     /**
-     * @param \Lyranetwork\CaptureResponse $captureResponse
-     * @return \Lyranetwork\RefundPaymentResult
+     * @param \Lyranetwork\Model\CaptureResponse $captureResponse
+     * @return \Lyranetwork\Model\RefundPaymentResult
      */
     public function setCaptureResponse($captureResponse)
     {
@@ -177,7 +177,7 @@ class RefundPaymentResult
     }
 
     /**
-     * @return \Lyranetwork\CustomerResponse
+     * @return \Lyranetwork\Model\CustomerResponse
      */
     public function getCustomerResponse()
     {
@@ -185,8 +185,8 @@ class RefundPaymentResult
     }
 
     /**
-     * @param \Lyranetwork\CustomerResponse $customerResponse
-     * @return \Lyranetwork\RefundPaymentResult
+     * @param \Lyranetwork\Model\CustomerResponse $customerResponse
+     * @return \Lyranetwork\Model\RefundPaymentResult
      */
     public function setCustomerResponse($customerResponse)
     {
@@ -195,7 +195,7 @@ class RefundPaymentResult
     }
 
     /**
-     * @return \Lyranetwork\MarkResponse
+     * @return \Lyranetwork\Model\MarkResponse
      */
     public function getMarkResponse()
     {
@@ -203,8 +203,8 @@ class RefundPaymentResult
     }
 
     /**
-     * @param \Lyranetwork\MarkResponse $markResponse
-     * @return \Lyranetwork\RefundPaymentResult
+     * @param \Lyranetwork\Model\MarkResponse $markResponse
+     * @return \Lyranetwork\Model\RefundPaymentResult
      */
     public function setMarkResponse($markResponse)
     {
@@ -213,7 +213,7 @@ class RefundPaymentResult
     }
 
     /**
-     * @return \Lyranetwork\ThreeDSResponse
+     * @return \Lyranetwork\Model\ThreeDSResponse
      */
     public function getThreeDSResponse()
     {
@@ -221,8 +221,8 @@ class RefundPaymentResult
     }
 
     /**
-     * @param \Lyranetwork\ThreeDSResponse $threeDSResponse
-     * @return \Lyranetwork\RefundPaymentResult
+     * @param \Lyranetwork\Model\ThreeDSResponse $threeDSResponse
+     * @return \Lyranetwork\Model\RefundPaymentResult
      */
     public function setThreeDSResponse($threeDSResponse)
     {
@@ -231,7 +231,7 @@ class RefundPaymentResult
     }
 
     /**
-     * @return \Lyranetwork\ExtraResponse
+     * @return \Lyranetwork\Model\ExtraResponse
      */
     public function getExtraResponse()
     {
@@ -239,8 +239,8 @@ class RefundPaymentResult
     }
 
     /**
-     * @param \Lyranetwork\ExtraResponse $extraResponse
-     * @return \Lyranetwork\RefundPaymentResult
+     * @param \Lyranetwork\Model\ExtraResponse $extraResponse
+     * @return \Lyranetwork\Model\RefundPaymentResult
      */
     public function setExtraResponse($extraResponse)
     {
@@ -249,7 +249,7 @@ class RefundPaymentResult
     }
 
     /**
-     * @return \Lyranetwork\FraudManagementResponse
+     * @return \Lyranetwork\Model\FraudManagementResponse
      */
     public function getFraudManagementResponse()
     {
@@ -257,8 +257,8 @@ class RefundPaymentResult
     }
 
     /**
-     * @param \Lyranetwork\FraudManagementResponse $fraudManagementResponse
-     * @return \Lyranetwork\RefundPaymentResult
+     * @param \Lyranetwork\Model\FraudManagementResponse $fraudManagementResponse
+     * @return \Lyranetwork\Model\RefundPaymentResult
      */
     public function setFraudManagementResponse($fraudManagementResponse)
     {

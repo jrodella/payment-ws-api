@@ -14,7 +14,7 @@ namespace Lyranetwork\Model;
 class ShippingDetailsRequest
 {
     /**
-     * @var \Lyranetwork\CustStatus $type
+     * @var \Lyranetwork\Model\CustStatus $type
      */
     private $type = null;
 
@@ -79,12 +79,12 @@ class ShippingDetailsRequest
     private $deliveryCompanyName = null;
 
     /**
-     * @var \Lyranetwork\DeliverySpeed $shippingSpeed
+     * @var \Lyranetwork\Model\DeliverySpeed $shippingSpeed
      */
     private $shippingSpeed = null;
 
     /**
-     * @var \Lyranetwork\DeliveryType $shippingMethod
+     * @var \Lyranetwork\Model\DeliveryType $shippingMethod
      */
     private $shippingMethod = null;
 
@@ -99,7 +99,7 @@ class ShippingDetailsRequest
     private $identityCode = null;
 
     /**
-     * @return \Lyranetwork\CustStatus
+     * @return \Lyranetwork\Model\CustStatus
      */
     public function getType()
     {
@@ -107,8 +107,8 @@ class ShippingDetailsRequest
     }
 
     /**
-     * @param \Lyranetwork\CustStatus $type
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @param \Lyranetwork\Model\CustStatus $type
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setType($type)
     {
@@ -126,7 +126,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $firstName
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setFirstName($firstName)
     {
@@ -144,7 +144,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $lastName
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setLastName($lastName)
     {
@@ -162,7 +162,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $phoneNumber
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setPhoneNumber($phoneNumber)
     {
@@ -180,7 +180,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $streetNumber
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setStreetNumber($streetNumber)
     {
@@ -198,7 +198,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $address
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setAddress($address)
     {
@@ -216,7 +216,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $address2
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setAddress2($address2)
     {
@@ -234,7 +234,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $district
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setDistrict($district)
     {
@@ -252,7 +252,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $zipCode
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setZipCode($zipCode)
     {
@@ -270,7 +270,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $city
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setCity($city)
     {
@@ -288,7 +288,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $state
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setState($state)
     {
@@ -306,7 +306,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $country
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setCountry($country)
     {
@@ -324,7 +324,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $deliveryCompanyName
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setDeliveryCompanyName($deliveryCompanyName)
     {
@@ -333,7 +333,7 @@ class ShippingDetailsRequest
     }
 
     /**
-     * @return \Lyranetwork\DeliverySpeed
+     * @return \Lyranetwork\Model\DeliverySpeed
      */
     public function getShippingSpeed()
     {
@@ -341,8 +341,8 @@ class ShippingDetailsRequest
     }
 
     /**
-     * @param \Lyranetwork\DeliverySpeed $shippingSpeed
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @param \Lyranetwork\Model\DeliverySpeed $shippingSpeed
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setShippingSpeed($shippingSpeed)
     {
@@ -351,7 +351,7 @@ class ShippingDetailsRequest
     }
 
     /**
-     * @return \Lyranetwork\DeliveryType
+     * @return \Lyranetwork\Model\DeliveryType
      */
     public function getShippingMethod()
     {
@@ -359,8 +359,8 @@ class ShippingDetailsRequest
     }
 
     /**
-     * @param \Lyranetwork\DeliveryType $shippingMethod
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @param \Lyranetwork\Model\DeliveryType $shippingMethod
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setShippingMethod($shippingMethod)
     {
@@ -378,7 +378,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $legalName
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setLegalName($legalName)
     {
@@ -396,7 +396,7 @@ class ShippingDetailsRequest
 
     /**
      * @param string $identityCode
-     * @return \Lyranetwork\ShippingDetailsRequest
+     * @return \Lyranetwork\Model\ShippingDetailsRequest
      */
     public function setIdentityCode($identityCode)
     {

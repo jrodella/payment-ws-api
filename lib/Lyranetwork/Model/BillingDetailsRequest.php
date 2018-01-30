@@ -24,7 +24,7 @@ class BillingDetailsRequest
     private $title = null;
 
     /**
-     * @var \Lyranetwork\CustStatus $type
+     * @var \Lyranetwork\Model\CustStatus $type
      */
     private $type = null;
 
@@ -118,7 +118,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $reference
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setReference($reference)
     {
@@ -136,7 +136,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $title
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setTitle($title)
     {
@@ -145,7 +145,7 @@ class BillingDetailsRequest
     }
 
     /**
-     * @return \Lyranetwork\CustStatus
+     * @return \Lyranetwork\Model\CustStatus
      */
     public function getType()
     {
@@ -153,8 +153,8 @@ class BillingDetailsRequest
     }
 
     /**
-     * @param \Lyranetwork\CustStatus $type
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @param \Lyranetwork\Model\CustStatus $type
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setType($type)
     {
@@ -172,7 +172,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $firstName
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setFirstName($firstName)
     {
@@ -190,7 +190,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $lastName
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setLastName($lastName)
     {
@@ -208,7 +208,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $phoneNumber
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setPhoneNumber($phoneNumber)
     {
@@ -226,7 +226,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $email
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setEmail($email)
     {
@@ -244,7 +244,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $streetNumber
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setStreetNumber($streetNumber)
     {
@@ -262,7 +262,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $address
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setAddress($address)
     {
@@ -280,7 +280,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $address2
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setAddress2($address2)
     {
@@ -298,7 +298,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $district
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setDistrict($district)
     {
@@ -316,7 +316,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $zipCode
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setZipCode($zipCode)
     {
@@ -334,7 +334,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $city
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setCity($city)
     {
@@ -352,7 +352,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $state
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setState($state)
     {
@@ -370,7 +370,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $country
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setCountry($country)
     {
@@ -388,7 +388,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $language
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setLanguage($language)
     {
@@ -406,7 +406,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $cellPhoneNumber
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setCellPhoneNumber($cellPhoneNumber)
     {
@@ -424,7 +424,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $legalName
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setLegalName($legalName)
     {
@@ -442,7 +442,7 @@ class BillingDetailsRequest
 
     /**
      * @param string $identityCode
-     * @return \Lyranetwork\BillingDetailsRequest
+     * @return \Lyranetwork\Model\BillingDetailsRequest
      */
     public function setIdentityCode($identityCode)
     {

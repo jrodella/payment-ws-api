@@ -61,7 +61,7 @@ class CaptureResponse
 
     /**
      * @param \DateTime $date
-     * @return \Lyranetwork\CaptureResponse
+     * @return \Lyranetwork\Model\CaptureResponse
      */
     public function setDate(\DateTime $date = null)
     {
@@ -83,7 +83,7 @@ class CaptureResponse
 
     /**
      * @param int $number
-     * @return \Lyranetwork\CaptureResponse
+     * @return \Lyranetwork\Model\CaptureResponse
      */
     public function setNumber($number)
     {
@@ -101,7 +101,7 @@ class CaptureResponse
 
     /**
      * @param int $reconciliationStatus
-     * @return \Lyranetwork\CaptureResponse
+     * @return \Lyranetwork\Model\CaptureResponse
      */
     public function setReconciliationStatus($reconciliationStatus)
     {
@@ -119,7 +119,7 @@ class CaptureResponse
 
     /**
      * @param int $refundAmount
-     * @return \Lyranetwork\CaptureResponse
+     * @return \Lyranetwork\Model\CaptureResponse
      */
     public function setRefundAmount($refundAmount)
     {
@@ -137,7 +137,7 @@ class CaptureResponse
 
     /**
      * @param int $refundCurrency
-     * @return \Lyranetwork\CaptureResponse
+     * @return \Lyranetwork\Model\CaptureResponse
      */
     public function setRefundCurrency($refundCurrency)
     {
@@ -155,7 +155,7 @@ class CaptureResponse
 
     /**
      * @param boolean $chargeback
-     * @return \Lyranetwork\CaptureResponse
+     * @return \Lyranetwork\Model\CaptureResponse
      */
     public function setChargeback($chargeback)
     {

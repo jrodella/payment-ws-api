@@ -14,22 +14,22 @@ namespace Lyranetwork\Model;
 class UpdatePayment
 {
     /**
-     * @var \Lyranetwork\CommonRequest $commonRequest
+     * @var \Lyranetwork\Model\CommonRequest $commonRequest
      */
     private $commonRequest = null;
 
     /**
-     * @var \Lyranetwork\QueryRequest $queryRequest
+     * @var \Lyranetwork\Model\QueryRequest $queryRequest
      */
     private $queryRequest = null;
 
     /**
-     * @var \Lyranetwork\PaymentRequest $paymentRequest
+     * @var \Lyranetwork\Model\PaymentRequest $paymentRequest
      */
     private $paymentRequest = null;
 
     /**
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function getCommonRequest()
     {
@@ -37,8 +37,8 @@ class UpdatePayment
     }
 
     /**
-     * @param \Lyranetwork\CommonRequest $commonRequest
-     * @return \Lyranetwork\UpdatePayment
+     * @param \Lyranetwork\Model\CommonRequest $commonRequest
+     * @return \Lyranetwork\Model\UpdatePayment
      */
     public function setCommonRequest($commonRequest)
     {
@@ -47,7 +47,7 @@ class UpdatePayment
     }
 
     /**
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function getQueryRequest()
     {
@@ -55,8 +55,8 @@ class UpdatePayment
     }
 
     /**
-     * @param \Lyranetwork\QueryRequest $queryRequest
-     * @return \Lyranetwork\UpdatePayment
+     * @param \Lyranetwork\Model\QueryRequest $queryRequest
+     * @return \Lyranetwork\Model\UpdatePayment
      */
     public function setQueryRequest($queryRequest)
     {
@@ -65,7 +65,7 @@ class UpdatePayment
     }
 
     /**
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function getPaymentRequest()
     {
@@ -73,8 +73,8 @@ class UpdatePayment
     }
 
     /**
-     * @param \Lyranetwork\PaymentRequest $paymentRequest
-     * @return \Lyranetwork\UpdatePayment
+     * @param \Lyranetwork\Model\PaymentRequest $paymentRequest
+     * @return \Lyranetwork\Model\UpdatePayment
      */
     public function setPaymentRequest($paymentRequest)
     {

@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class CreateTokenByIbanResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\CreateTokenByIbanResult $createTokenByIbanResult
+     * @var \Lyranetwork\Model\CreateTokenByIbanResult $createTokenByIbanResult
      */
     private $createTokenByIbanResult = null;
 
     /**
-     * @return \Lyranetwork\CreateTokenByIbanResult
+     * @return \Lyranetwork\Model\CreateTokenByIbanResult
      */
     public function getCreateTokenByIbanResult()
     {
@@ -27,8 +27,8 @@ class CreateTokenByIbanResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\CreateTokenByIbanResult $createTokenByIbanResult
-     * @return \Lyranetwork\CreateTokenByIbanResponse
+     * @param \Lyranetwork\Model\CreateTokenByIbanResult $createTokenByIbanResult
+     * @return \Lyranetwork\Model\CreateTokenByIbanResponse
      */
     public function setCreateTokenByIbanResult($createTokenByIbanResult)
     {

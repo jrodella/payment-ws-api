@@ -48,7 +48,7 @@ class MarkResponse
 
     /**
      * @param int $amount
-     * @return \Lyranetwork\MarkResponse
+     * @return \Lyranetwork\Model\MarkResponse
      */
     public function setAmount($amount)
     {
@@ -66,7 +66,7 @@ class MarkResponse
 
     /**
      * @param int $currency
-     * @return \Lyranetwork\MarkResponse
+     * @return \Lyranetwork\Model\MarkResponse
      */
     public function setCurrency($currency)
     {
@@ -92,7 +92,7 @@ class MarkResponse
 
     /**
      * @param \DateTime $date
-     * @return \Lyranetwork\MarkResponse
+     * @return \Lyranetwork\Model\MarkResponse
      */
     public function setDate(\DateTime $date = null)
     {
@@ -114,7 +114,7 @@ class MarkResponse
 
     /**
      * @param string $number
-     * @return \Lyranetwork\MarkResponse
+     * @return \Lyranetwork\Model\MarkResponse
      */
     public function setNumber($number)
     {
@@ -132,7 +132,7 @@ class MarkResponse
 
     /**
      * @param int $result
-     * @return \Lyranetwork\MarkResponse
+     * @return \Lyranetwork\Model\MarkResponse
      */
     public function setResult($result)
     {

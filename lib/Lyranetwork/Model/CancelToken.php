@@ -14,17 +14,17 @@ namespace Lyranetwork\Model;
 class CancelToken
 {
     /**
-     * @var \Lyranetwork\CommonRequest $commonRequest
+     * @var \Lyranetwork\Model\CommonRequest $commonRequest
      */
     private $commonRequest = null;
 
     /**
-     * @var \Lyranetwork\QueryRequest $queryRequest
+     * @var \Lyranetwork\Model\QueryRequest $queryRequest
      */
     private $queryRequest = null;
 
     /**
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function getCommonRequest()
     {
@@ -32,8 +32,8 @@ class CancelToken
     }
 
     /**
-     * @param \Lyranetwork\CommonRequest $commonRequest
-     * @return \Lyranetwork\CancelToken
+     * @param \Lyranetwork\Model\CommonRequest $commonRequest
+     * @return \Lyranetwork\Model\CancelToken
      */
     public function setCommonRequest($commonRequest)
     {
@@ -42,7 +42,7 @@ class CancelToken
     }
 
     /**
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function getQueryRequest()
     {
@@ -50,8 +50,8 @@ class CancelToken
     }
 
     /**
-     * @param \Lyranetwork\QueryRequest $queryRequest
-     * @return \Lyranetwork\CancelToken
+     * @param \Lyranetwork\Model\QueryRequest $queryRequest
+     * @return \Lyranetwork\Model\CancelToken
      */
     public function setQueryRequest($queryRequest)
     {

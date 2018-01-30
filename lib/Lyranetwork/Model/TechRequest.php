@@ -38,7 +38,7 @@ class TechRequest
 
     /**
      * @param string $browserUserAgent
-     * @return \Lyranetwork\TechRequest
+     * @return \Lyranetwork\Model\TechRequest
      */
     public function setBrowserUserAgent($browserUserAgent)
     {
@@ -56,7 +56,7 @@ class TechRequest
 
     /**
      * @param string $browserAccept
-     * @return \Lyranetwork\TechRequest
+     * @return \Lyranetwork\Model\TechRequest
      */
     public function setBrowserAccept($browserAccept)
     {
@@ -74,7 +74,7 @@ class TechRequest
 
     /**
      * @param string $integrationType
-     * @return \Lyranetwork\TechRequest
+     * @return \Lyranetwork\Model\TechRequest
      */
     public function setIntegrationType($integrationType)
     {

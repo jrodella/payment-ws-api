@@ -14,17 +14,17 @@ namespace Lyranetwork\Model;
 class CheckThreeDSAuthentication
 {
     /**
-     * @var \Lyranetwork\CommonRequest $commonRequest
+     * @var \Lyranetwork\Model\CommonRequest $commonRequest
      */
     private $commonRequest = null;
 
     /**
-     * @var \Lyranetwork\ThreeDSRequest $threeDSRequest
+     * @var \Lyranetwork\Model\ThreeDSRequest $threeDSRequest
      */
     private $threeDSRequest = null;
 
     /**
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function getCommonRequest()
     {
@@ -32,8 +32,8 @@ class CheckThreeDSAuthentication
     }
 
     /**
-     * @param \Lyranetwork\CommonRequest $commonRequest
-     * @return \Lyranetwork\CheckThreeDSAuthentication
+     * @param \Lyranetwork\Model\CommonRequest $commonRequest
+     * @return \Lyranetwork\Model\CheckThreeDSAuthentication
      */
     public function setCommonRequest($commonRequest)
     {
@@ -42,7 +42,7 @@ class CheckThreeDSAuthentication
     }
 
     /**
-     * @return \Lyranetwork\ThreeDSRequest
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function getThreeDSRequest()
     {
@@ -50,8 +50,8 @@ class CheckThreeDSAuthentication
     }
 
     /**
-     * @param \Lyranetwork\ThreeDSRequest $threeDSRequest
-     * @return \Lyranetwork\CheckThreeDSAuthentication
+     * @param \Lyranetwork\Model\ThreeDSRequest $threeDSRequest
+     * @return \Lyranetwork\Model\CheckThreeDSAuthentication
      */
     public function setThreeDSRequest($threeDSRequest)
     {

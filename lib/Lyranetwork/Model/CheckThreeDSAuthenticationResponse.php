@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class CheckThreeDSAuthenticationResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\CheckThreeDSAuthenticationResult $checkThreeDSAuthenticationResult
+     * @var \Lyranetwork\Model\CheckThreeDSAuthenticationResult $checkThreeDSAuthenticationResult
      */
     private $checkThreeDSAuthenticationResult = null;
 
     /**
-     * @return \Lyranetwork\CheckThreeDSAuthenticationResult
+     * @return \Lyranetwork\Model\CheckThreeDSAuthenticationResult
      */
     public function getCheckThreeDSAuthenticationResult()
     {
@@ -27,8 +27,8 @@ class CheckThreeDSAuthenticationResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\CheckThreeDSAuthenticationResult $checkThreeDSAuthenticationResult
-     * @return \Lyranetwork\CheckThreeDSAuthenticationResponse
+     * @param \Lyranetwork\Model\CheckThreeDSAuthenticationResult $checkThreeDSAuthenticationResult
+     * @return \Lyranetwork\Model\CheckThreeDSAuthenticationResponse
      */
     public function setCheckThreeDSAuthenticationResult($checkThreeDSAuthenticationResult)
     {

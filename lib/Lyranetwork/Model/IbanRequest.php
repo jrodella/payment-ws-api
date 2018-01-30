@@ -43,7 +43,7 @@ class IbanRequest
 
     /**
      * @param string $firstName
-     * @return \Lyranetwork\IbanRequest
+     * @return \Lyranetwork\Model\IbanRequest
      */
     public function setFirstName($firstName)
     {
@@ -61,7 +61,7 @@ class IbanRequest
 
     /**
      * @param string $lastName
-     * @return \Lyranetwork\IbanRequest
+     * @return \Lyranetwork\Model\IbanRequest
      */
     public function setLastName($lastName)
     {
@@ -79,7 +79,7 @@ class IbanRequest
 
     /**
      * @param string $iban
-     * @return \Lyranetwork\IbanRequest
+     * @return \Lyranetwork\Model\IbanRequest
      */
     public function setIban($iban)
     {
@@ -97,7 +97,7 @@ class IbanRequest
 
     /**
      * @param string $legalName
-     * @return \Lyranetwork\IbanRequest
+     * @return \Lyranetwork\Model\IbanRequest
      */
     public function setLegalName($legalName)
     {

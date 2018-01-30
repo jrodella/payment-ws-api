@@ -53,7 +53,7 @@ class AuthorizationResponse
 
     /**
      * @param string $mode
-     * @return \Lyranetwork\AuthorizationResponse
+     * @return \Lyranetwork\Model\AuthorizationResponse
      */
     public function setMode($mode)
     {
@@ -71,7 +71,7 @@ class AuthorizationResponse
 
     /**
      * @param int $amount
-     * @return \Lyranetwork\AuthorizationResponse
+     * @return \Lyranetwork\Model\AuthorizationResponse
      */
     public function setAmount($amount)
     {
@@ -89,7 +89,7 @@ class AuthorizationResponse
 
     /**
      * @param int $currency
-     * @return \Lyranetwork\AuthorizationResponse
+     * @return \Lyranetwork\Model\AuthorizationResponse
      */
     public function setCurrency($currency)
     {
@@ -115,7 +115,7 @@ class AuthorizationResponse
 
     /**
      * @param \DateTime $date
-     * @return \Lyranetwork\AuthorizationResponse
+     * @return \Lyranetwork\Model\AuthorizationResponse
      */
     public function setDate(\DateTime $date = null)
     {
@@ -137,7 +137,7 @@ class AuthorizationResponse
 
     /**
      * @param string $number
-     * @return \Lyranetwork\AuthorizationResponse
+     * @return \Lyranetwork\Model\AuthorizationResponse
      */
     public function setNumber($number)
     {
@@ -155,7 +155,7 @@ class AuthorizationResponse
 
     /**
      * @param int $result
-     * @return \Lyranetwork\AuthorizationResponse
+     * @return \Lyranetwork\Model\AuthorizationResponse
      */
     public function setResult($result)
     {

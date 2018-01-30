@@ -14,72 +14,72 @@ namespace Lyranetwork\Model;
 class CreateSubscriptionResult
 {
     /**
-     * @var \Lyranetwork\CommonResponse $commonResponse
+     * @var \Lyranetwork\Model\CommonResponse $commonResponse
      */
     private $commonResponse = null;
 
     /**
-     * @var \Lyranetwork\PaymentResponse $paymentResponse
+     * @var \Lyranetwork\Model\PaymentResponse $paymentResponse
      */
     private $paymentResponse = null;
 
     /**
-     * @var \Lyranetwork\OrderResponse $orderResponse
+     * @var \Lyranetwork\Model\OrderResponse $orderResponse
      */
     private $orderResponse = null;
 
     /**
-     * @var \Lyranetwork\CardResponse $cardResponse
+     * @var \Lyranetwork\Model\CardResponse $cardResponse
      */
     private $cardResponse = null;
 
     /**
-     * @var \Lyranetwork\AuthorizationResponse $authorizationResponse
+     * @var \Lyranetwork\Model\AuthorizationResponse $authorizationResponse
      */
     private $authorizationResponse = null;
 
     /**
-     * @var \Lyranetwork\CaptureResponse $captureResponse
+     * @var \Lyranetwork\Model\CaptureResponse $captureResponse
      */
     private $captureResponse = null;
 
     /**
-     * @var \Lyranetwork\CustomerResponse $customerResponse
+     * @var \Lyranetwork\Model\CustomerResponse $customerResponse
      */
     private $customerResponse = null;
 
     /**
-     * @var \Lyranetwork\MarkResponse $markResponse
+     * @var \Lyranetwork\Model\MarkResponse $markResponse
      */
     private $markResponse = null;
 
     /**
-     * @var \Lyranetwork\ThreeDSResponse $threeDSResponse
+     * @var \Lyranetwork\Model\ThreeDSResponse $threeDSResponse
      */
     private $threeDSResponse = null;
 
     /**
-     * @var \Lyranetwork\ExtraResponse $extraResponse
+     * @var \Lyranetwork\Model\ExtraResponse $extraResponse
      */
     private $extraResponse = null;
 
     /**
-     * @var \Lyranetwork\SubscriptionResponse $subscriptionResponse
+     * @var \Lyranetwork\Model\SubscriptionResponse $subscriptionResponse
      */
     private $subscriptionResponse = null;
 
     /**
-     * @var \Lyranetwork\FraudManagementResponse $fraudManagementResponse
+     * @var \Lyranetwork\Model\FraudManagementResponse $fraudManagementResponse
      */
     private $fraudManagementResponse = null;
 
     /**
-     * @var \Lyranetwork\ShoppingCartResponse $shoppingCartResponse
+     * @var \Lyranetwork\Model\ShoppingCartResponse $shoppingCartResponse
      */
     private $shoppingCartResponse = null;
 
     /**
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function getCommonResponse()
     {
@@ -87,8 +87,8 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @param \Lyranetwork\CommonResponse $commonResponse
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @param \Lyranetwork\Model\CommonResponse $commonResponse
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function setCommonResponse($commonResponse)
     {
@@ -97,7 +97,7 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function getPaymentResponse()
     {
@@ -105,8 +105,8 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @param \Lyranetwork\PaymentResponse $paymentResponse
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @param \Lyranetwork\Model\PaymentResponse $paymentResponse
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function setPaymentResponse($paymentResponse)
     {
@@ -115,7 +115,7 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @return \Lyranetwork\OrderResponse
+     * @return \Lyranetwork\Model\OrderResponse
      */
     public function getOrderResponse()
     {
@@ -123,8 +123,8 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @param \Lyranetwork\OrderResponse $orderResponse
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @param \Lyranetwork\Model\OrderResponse $orderResponse
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function setOrderResponse($orderResponse)
     {
@@ -133,7 +133,7 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @return \Lyranetwork\CardResponse
+     * @return \Lyranetwork\Model\CardResponse
      */
     public function getCardResponse()
     {
@@ -141,8 +141,8 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @param \Lyranetwork\CardResponse $cardResponse
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @param \Lyranetwork\Model\CardResponse $cardResponse
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function setCardResponse($cardResponse)
     {
@@ -151,7 +151,7 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @return \Lyranetwork\AuthorizationResponse
+     * @return \Lyranetwork\Model\AuthorizationResponse
      */
     public function getAuthorizationResponse()
     {
@@ -159,8 +159,8 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @param \Lyranetwork\AuthorizationResponse $authorizationResponse
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @param \Lyranetwork\Model\AuthorizationResponse $authorizationResponse
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function setAuthorizationResponse($authorizationResponse)
     {
@@ -169,7 +169,7 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @return \Lyranetwork\CaptureResponse
+     * @return \Lyranetwork\Model\CaptureResponse
      */
     public function getCaptureResponse()
     {
@@ -177,8 +177,8 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @param \Lyranetwork\CaptureResponse $captureResponse
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @param \Lyranetwork\Model\CaptureResponse $captureResponse
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function setCaptureResponse($captureResponse)
     {
@@ -187,7 +187,7 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @return \Lyranetwork\CustomerResponse
+     * @return \Lyranetwork\Model\CustomerResponse
      */
     public function getCustomerResponse()
     {
@@ -195,8 +195,8 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @param \Lyranetwork\CustomerResponse $customerResponse
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @param \Lyranetwork\Model\CustomerResponse $customerResponse
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function setCustomerResponse($customerResponse)
     {
@@ -205,7 +205,7 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @return \Lyranetwork\MarkResponse
+     * @return \Lyranetwork\Model\MarkResponse
      */
     public function getMarkResponse()
     {
@@ -213,8 +213,8 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @param \Lyranetwork\MarkResponse $markResponse
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @param \Lyranetwork\Model\MarkResponse $markResponse
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function setMarkResponse($markResponse)
     {
@@ -223,7 +223,7 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @return \Lyranetwork\ThreeDSResponse
+     * @return \Lyranetwork\Model\ThreeDSResponse
      */
     public function getThreeDSResponse()
     {
@@ -231,8 +231,8 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @param \Lyranetwork\ThreeDSResponse $threeDSResponse
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @param \Lyranetwork\Model\ThreeDSResponse $threeDSResponse
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function setThreeDSResponse($threeDSResponse)
     {
@@ -241,7 +241,7 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @return \Lyranetwork\ExtraResponse
+     * @return \Lyranetwork\Model\ExtraResponse
      */
     public function getExtraResponse()
     {
@@ -249,8 +249,8 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @param \Lyranetwork\ExtraResponse $extraResponse
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @param \Lyranetwork\Model\ExtraResponse $extraResponse
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function setExtraResponse($extraResponse)
     {
@@ -259,7 +259,7 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function getSubscriptionResponse()
     {
@@ -267,8 +267,8 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @param \Lyranetwork\SubscriptionResponse $subscriptionResponse
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @param \Lyranetwork\Model\SubscriptionResponse $subscriptionResponse
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function setSubscriptionResponse($subscriptionResponse)
     {
@@ -277,7 +277,7 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @return \Lyranetwork\FraudManagementResponse
+     * @return \Lyranetwork\Model\FraudManagementResponse
      */
     public function getFraudManagementResponse()
     {
@@ -285,8 +285,8 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @param \Lyranetwork\FraudManagementResponse $fraudManagementResponse
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @param \Lyranetwork\Model\FraudManagementResponse $fraudManagementResponse
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function setFraudManagementResponse($fraudManagementResponse)
     {
@@ -295,7 +295,7 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @return \Lyranetwork\ShoppingCartResponse
+     * @return \Lyranetwork\Model\ShoppingCartResponse
      */
     public function getShoppingCartResponse()
     {
@@ -303,8 +303,8 @@ class CreateSubscriptionResult
     }
 
     /**
-     * @param \Lyranetwork\ShoppingCartResponse $shoppingCartResponse
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @param \Lyranetwork\Model\ShoppingCartResponse $shoppingCartResponse
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function setShoppingCartResponse($shoppingCartResponse)
     {

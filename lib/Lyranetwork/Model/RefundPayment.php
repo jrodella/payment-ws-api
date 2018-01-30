@@ -14,22 +14,22 @@ namespace Lyranetwork\Model;
 class RefundPayment
 {
     /**
-     * @var \Lyranetwork\CommonRequest $commonRequest
+     * @var \Lyranetwork\Model\CommonRequest $commonRequest
      */
     private $commonRequest = null;
 
     /**
-     * @var \Lyranetwork\PaymentRequest $paymentRequest
+     * @var \Lyranetwork\Model\PaymentRequest $paymentRequest
      */
     private $paymentRequest = null;
 
     /**
-     * @var \Lyranetwork\QueryRequest $queryRequest
+     * @var \Lyranetwork\Model\QueryRequest $queryRequest
      */
     private $queryRequest = null;
 
     /**
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function getCommonRequest()
     {
@@ -37,8 +37,8 @@ class RefundPayment
     }
 
     /**
-     * @param \Lyranetwork\CommonRequest $commonRequest
-     * @return \Lyranetwork\RefundPayment
+     * @param \Lyranetwork\Model\CommonRequest $commonRequest
+     * @return \Lyranetwork\Model\RefundPayment
      */
     public function setCommonRequest($commonRequest)
     {
@@ -47,7 +47,7 @@ class RefundPayment
     }
 
     /**
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function getPaymentRequest()
     {
@@ -55,8 +55,8 @@ class RefundPayment
     }
 
     /**
-     * @param \Lyranetwork\PaymentRequest $paymentRequest
-     * @return \Lyranetwork\RefundPayment
+     * @param \Lyranetwork\Model\PaymentRequest $paymentRequest
+     * @return \Lyranetwork\Model\RefundPayment
      */
     public function setPaymentRequest($paymentRequest)
     {
@@ -65,7 +65,7 @@ class RefundPayment
     }
 
     /**
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function getQueryRequest()
     {
@@ -73,8 +73,8 @@ class RefundPayment
     }
 
     /**
-     * @param \Lyranetwork\QueryRequest $queryRequest
-     * @return \Lyranetwork\RefundPayment
+     * @param \Lyranetwork\Model\QueryRequest $queryRequest
+     * @return \Lyranetwork\Model\RefundPayment
      */
     public function setQueryRequest($queryRequest)
     {

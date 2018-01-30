@@ -14,7 +14,7 @@ namespace Lyranetwork\Model;
 class ThreeDSRequest
 {
     /**
-     * @var \Lyranetwork\ThreeDSMode $mode
+     * @var \Lyranetwork\Model\ThreeDSMode $mode
      */
     private $mode = null;
 
@@ -64,12 +64,12 @@ class ThreeDSRequest
     private $algorithm = null;
 
     /**
-     * @var \Lyranetwork\MpiExtensionRequest $mpiExtension
+     * @var \Lyranetwork\Model\MpiExtensionRequest $mpiExtension
      */
     private $mpiExtension = null;
 
     /**
-     * @return \Lyranetwork\ThreeDSMode
+     * @return \Lyranetwork\Model\ThreeDSMode
      */
     public function getMode()
     {
@@ -77,8 +77,8 @@ class ThreeDSRequest
     }
 
     /**
-     * @param \Lyranetwork\ThreeDSMode $mode
-     * @return \Lyranetwork\ThreeDSRequest
+     * @param \Lyranetwork\Model\ThreeDSMode $mode
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function setMode($mode)
     {
@@ -96,7 +96,7 @@ class ThreeDSRequest
 
     /**
      * @param string $requestId
-     * @return \Lyranetwork\ThreeDSRequest
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function setRequestId($requestId)
     {
@@ -114,7 +114,7 @@ class ThreeDSRequest
 
     /**
      * @param string $pares
-     * @return \Lyranetwork\ThreeDSRequest
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function setPares($pares)
     {
@@ -132,7 +132,7 @@ class ThreeDSRequest
 
     /**
      * @param string $brand
-     * @return \Lyranetwork\ThreeDSRequest
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function setBrand($brand)
     {
@@ -150,7 +150,7 @@ class ThreeDSRequest
 
     /**
      * @param string $enrolled
-     * @return \Lyranetwork\ThreeDSRequest
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function setEnrolled($enrolled)
     {
@@ -168,7 +168,7 @@ class ThreeDSRequest
 
     /**
      * @param string $status
-     * @return \Lyranetwork\ThreeDSRequest
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function setStatus($status)
     {
@@ -186,7 +186,7 @@ class ThreeDSRequest
 
     /**
      * @param string $eci
-     * @return \Lyranetwork\ThreeDSRequest
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function setEci($eci)
     {
@@ -204,7 +204,7 @@ class ThreeDSRequest
 
     /**
      * @param string $xid
-     * @return \Lyranetwork\ThreeDSRequest
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function setXid($xid)
     {
@@ -222,7 +222,7 @@ class ThreeDSRequest
 
     /**
      * @param string $cavv
-     * @return \Lyranetwork\ThreeDSRequest
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function setCavv($cavv)
     {
@@ -240,7 +240,7 @@ class ThreeDSRequest
 
     /**
      * @param string $algorithm
-     * @return \Lyranetwork\ThreeDSRequest
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function setAlgorithm($algorithm)
     {
@@ -249,7 +249,7 @@ class ThreeDSRequest
     }
 
     /**
-     * @return \Lyranetwork\MpiExtensionRequest
+     * @return \Lyranetwork\Model\MpiExtensionRequest
      */
     public function getMpiExtension()
     {
@@ -257,8 +257,8 @@ class ThreeDSRequest
     }
 
     /**
-     * @param \Lyranetwork\MpiExtensionRequest $mpiExtension
-     * @return \Lyranetwork\ThreeDSRequest
+     * @param \Lyranetwork\Model\MpiExtensionRequest $mpiExtension
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function setMpiExtension($mpiExtension)
     {

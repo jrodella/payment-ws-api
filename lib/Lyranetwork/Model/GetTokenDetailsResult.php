@@ -14,72 +14,72 @@ namespace Lyranetwork\Model;
 class GetTokenDetailsResult
 {
     /**
-     * @var \Lyranetwork\CommonResponse $commonResponse
+     * @var \Lyranetwork\Model\CommonResponse $commonResponse
      */
     private $commonResponse = null;
 
     /**
-     * @var \Lyranetwork\PaymentResponse $paymentResponse
+     * @var \Lyranetwork\Model\PaymentResponse $paymentResponse
      */
     private $paymentResponse = null;
 
     /**
-     * @var \Lyranetwork\OrderResponse $orderResponse
+     * @var \Lyranetwork\Model\OrderResponse $orderResponse
      */
     private $orderResponse = null;
 
     /**
-     * @var \Lyranetwork\CardResponse $cardResponse
+     * @var \Lyranetwork\Model\CardResponse $cardResponse
      */
     private $cardResponse = null;
 
     /**
-     * @var \Lyranetwork\AuthorizationResponse $authorizationResponse
+     * @var \Lyranetwork\Model\AuthorizationResponse $authorizationResponse
      */
     private $authorizationResponse = null;
 
     /**
-     * @var \Lyranetwork\CaptureResponse $captureResponse
+     * @var \Lyranetwork\Model\CaptureResponse $captureResponse
      */
     private $captureResponse = null;
 
     /**
-     * @var \Lyranetwork\CustomerResponse $customerResponse
+     * @var \Lyranetwork\Model\CustomerResponse $customerResponse
      */
     private $customerResponse = null;
 
     /**
-     * @var \Lyranetwork\MarkResponse $markResponse
+     * @var \Lyranetwork\Model\MarkResponse $markResponse
      */
     private $markResponse = null;
 
     /**
-     * @var \Lyranetwork\SubscriptionResponse $subscriptionResponse
+     * @var \Lyranetwork\Model\SubscriptionResponse $subscriptionResponse
      */
     private $subscriptionResponse = null;
 
     /**
-     * @var \Lyranetwork\ExtraResponse $extraResponse
+     * @var \Lyranetwork\Model\ExtraResponse $extraResponse
      */
     private $extraResponse = null;
 
     /**
-     * @var \Lyranetwork\FraudManagementResponse $fraudManagementResponse
+     * @var \Lyranetwork\Model\FraudManagementResponse $fraudManagementResponse
      */
     private $fraudManagementResponse = null;
 
     /**
-     * @var \Lyranetwork\ThreeDSResponse $threeDSResponse
+     * @var \Lyranetwork\Model\ThreeDSResponse $threeDSResponse
      */
     private $threeDSResponse = null;
 
     /**
-     * @var \Lyranetwork\TokenResponse $tokenResponse
+     * @var \Lyranetwork\Model\TokenResponse $tokenResponse
      */
     private $tokenResponse = null;
 
     /**
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function getCommonResponse()
     {
@@ -87,8 +87,8 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\CommonResponse $commonResponse
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @param \Lyranetwork\Model\CommonResponse $commonResponse
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function setCommonResponse($commonResponse)
     {
@@ -97,7 +97,7 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function getPaymentResponse()
     {
@@ -105,8 +105,8 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\PaymentResponse $paymentResponse
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @param \Lyranetwork\Model\PaymentResponse $paymentResponse
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function setPaymentResponse($paymentResponse)
     {
@@ -115,7 +115,7 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\OrderResponse
+     * @return \Lyranetwork\Model\OrderResponse
      */
     public function getOrderResponse()
     {
@@ -123,8 +123,8 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\OrderResponse $orderResponse
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @param \Lyranetwork\Model\OrderResponse $orderResponse
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function setOrderResponse($orderResponse)
     {
@@ -133,7 +133,7 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\CardResponse
+     * @return \Lyranetwork\Model\CardResponse
      */
     public function getCardResponse()
     {
@@ -141,8 +141,8 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\CardResponse $cardResponse
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @param \Lyranetwork\Model\CardResponse $cardResponse
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function setCardResponse($cardResponse)
     {
@@ -151,7 +151,7 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\AuthorizationResponse
+     * @return \Lyranetwork\Model\AuthorizationResponse
      */
     public function getAuthorizationResponse()
     {
@@ -159,8 +159,8 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\AuthorizationResponse $authorizationResponse
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @param \Lyranetwork\Model\AuthorizationResponse $authorizationResponse
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function setAuthorizationResponse($authorizationResponse)
     {
@@ -169,7 +169,7 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\CaptureResponse
+     * @return \Lyranetwork\Model\CaptureResponse
      */
     public function getCaptureResponse()
     {
@@ -177,8 +177,8 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\CaptureResponse $captureResponse
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @param \Lyranetwork\Model\CaptureResponse $captureResponse
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function setCaptureResponse($captureResponse)
     {
@@ -187,7 +187,7 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\CustomerResponse
+     * @return \Lyranetwork\Model\CustomerResponse
      */
     public function getCustomerResponse()
     {
@@ -195,8 +195,8 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\CustomerResponse $customerResponse
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @param \Lyranetwork\Model\CustomerResponse $customerResponse
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function setCustomerResponse($customerResponse)
     {
@@ -205,7 +205,7 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\MarkResponse
+     * @return \Lyranetwork\Model\MarkResponse
      */
     public function getMarkResponse()
     {
@@ -213,8 +213,8 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\MarkResponse $markResponse
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @param \Lyranetwork\Model\MarkResponse $markResponse
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function setMarkResponse($markResponse)
     {
@@ -223,7 +223,7 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function getSubscriptionResponse()
     {
@@ -231,8 +231,8 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\SubscriptionResponse $subscriptionResponse
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @param \Lyranetwork\Model\SubscriptionResponse $subscriptionResponse
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function setSubscriptionResponse($subscriptionResponse)
     {
@@ -241,7 +241,7 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\ExtraResponse
+     * @return \Lyranetwork\Model\ExtraResponse
      */
     public function getExtraResponse()
     {
@@ -249,8 +249,8 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\ExtraResponse $extraResponse
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @param \Lyranetwork\Model\ExtraResponse $extraResponse
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function setExtraResponse($extraResponse)
     {
@@ -259,7 +259,7 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\FraudManagementResponse
+     * @return \Lyranetwork\Model\FraudManagementResponse
      */
     public function getFraudManagementResponse()
     {
@@ -267,8 +267,8 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\FraudManagementResponse $fraudManagementResponse
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @param \Lyranetwork\Model\FraudManagementResponse $fraudManagementResponse
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function setFraudManagementResponse($fraudManagementResponse)
     {
@@ -277,7 +277,7 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\ThreeDSResponse
+     * @return \Lyranetwork\Model\ThreeDSResponse
      */
     public function getThreeDSResponse()
     {
@@ -285,8 +285,8 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\ThreeDSResponse $threeDSResponse
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @param \Lyranetwork\Model\ThreeDSResponse $threeDSResponse
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function setThreeDSResponse($threeDSResponse)
     {
@@ -295,7 +295,7 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\TokenResponse
+     * @return \Lyranetwork\Model\TokenResponse
      */
     public function getTokenResponse()
     {
@@ -303,8 +303,8 @@ class GetTokenDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\TokenResponse $tokenResponse
-     * @return \Lyranetwork\GetTokenDetailsResult
+     * @param \Lyranetwork\Model\TokenResponse $tokenResponse
+     * @return \Lyranetwork\Model\GetTokenDetailsResult
      */
     public function setTokenResponse($tokenResponse)
     {

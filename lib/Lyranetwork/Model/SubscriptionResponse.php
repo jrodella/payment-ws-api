@@ -78,7 +78,7 @@ class SubscriptionResponse
 
     /**
      * @param string $subscriptionId
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function setSubscriptionId($subscriptionId)
     {
@@ -104,7 +104,7 @@ class SubscriptionResponse
 
     /**
      * @param \DateTime $effectDate
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function setEffectDate(\DateTime $effectDate = null)
     {
@@ -134,7 +134,7 @@ class SubscriptionResponse
 
     /**
      * @param \DateTime $cancelDate
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function setCancelDate(\DateTime $cancelDate = null)
     {
@@ -156,7 +156,7 @@ class SubscriptionResponse
 
     /**
      * @param int $initialAmount
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function setInitialAmount($initialAmount)
     {
@@ -174,7 +174,7 @@ class SubscriptionResponse
 
     /**
      * @param string $rrule
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function setRrule($rrule)
     {
@@ -192,7 +192,7 @@ class SubscriptionResponse
 
     /**
      * @param string $description
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function setDescription($description)
     {
@@ -210,7 +210,7 @@ class SubscriptionResponse
 
     /**
      * @param int $initialAmountNumber
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function setInitialAmountNumber($initialAmountNumber)
     {
@@ -228,7 +228,7 @@ class SubscriptionResponse
 
     /**
      * @param int $pastPaymentNumber
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function setPastPaymentNumber($pastPaymentNumber)
     {
@@ -246,7 +246,7 @@ class SubscriptionResponse
 
     /**
      * @param int $totalPaymentNumber
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function setTotalPaymentNumber($totalPaymentNumber)
     {
@@ -264,7 +264,7 @@ class SubscriptionResponse
 
     /**
      * @param int $amount
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function setAmount($amount)
     {
@@ -282,7 +282,7 @@ class SubscriptionResponse
 
     /**
      * @param int $currency
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function setCurrency($currency)
     {

@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class CreateTokenFromTransactionResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\CreateTokenFromTransactionResult $createTokenFromTransactionResult
+     * @var \Lyranetwork\Model\CreateTokenFromTransactionResult $createTokenFromTransactionResult
      */
     private $createTokenFromTransactionResult = null;
 
     /**
-     * @return \Lyranetwork\CreateTokenFromTransactionResult
+     * @return \Lyranetwork\Model\CreateTokenFromTransactionResult
      */
     public function getCreateTokenFromTransactionResult()
     {
@@ -27,8 +27,8 @@ class CreateTokenFromTransactionResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\CreateTokenFromTransactionResult $createTokenFromTransactionResult
-     * @return \Lyranetwork\CreateTokenFromTransactionResponse
+     * @param \Lyranetwork\Model\CreateTokenFromTransactionResult $createTokenFromTransactionResult
+     * @return \Lyranetwork\Model\CreateTokenFromTransactionResponse
      */
     public function setCreateTokenFromTransactionResult($createTokenFromTransactionResult)
     {

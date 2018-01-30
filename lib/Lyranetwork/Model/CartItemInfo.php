@@ -19,7 +19,7 @@ class CartItemInfo
     private $productLabel = null;
 
     /**
-     * @var \Lyranetwork\ProductType $productType
+     * @var \Lyranetwork\Model\ProductType $productType
      */
     private $productType = null;
 
@@ -58,7 +58,7 @@ class CartItemInfo
 
     /**
      * @param string $productLabel
-     * @return \Lyranetwork\CartItemInfo
+     * @return \Lyranetwork\Model\CartItemInfo
      */
     public function setProductLabel($productLabel)
     {
@@ -67,7 +67,7 @@ class CartItemInfo
     }
 
     /**
-     * @return \Lyranetwork\ProductType
+     * @return \Lyranetwork\Model\ProductType
      */
     public function getProductType()
     {
@@ -75,8 +75,8 @@ class CartItemInfo
     }
 
     /**
-     * @param \Lyranetwork\ProductType $productType
-     * @return \Lyranetwork\CartItemInfo
+     * @param \Lyranetwork\Model\ProductType $productType
+     * @return \Lyranetwork\Model\CartItemInfo
      */
     public function setProductType($productType)
     {
@@ -94,7 +94,7 @@ class CartItemInfo
 
     /**
      * @param string $productRef
-     * @return \Lyranetwork\CartItemInfo
+     * @return \Lyranetwork\Model\CartItemInfo
      */
     public function setProductRef($productRef)
     {
@@ -112,7 +112,7 @@ class CartItemInfo
 
     /**
      * @param int $productQty
-     * @return \Lyranetwork\CartItemInfo
+     * @return \Lyranetwork\Model\CartItemInfo
      */
     public function setProductQty($productQty)
     {
@@ -130,7 +130,7 @@ class CartItemInfo
 
     /**
      * @param string $productAmount
-     * @return \Lyranetwork\CartItemInfo
+     * @return \Lyranetwork\Model\CartItemInfo
      */
     public function setProductAmount($productAmount)
     {
@@ -148,7 +148,7 @@ class CartItemInfo
 
     /**
      * @param string $productVat
-     * @return \Lyranetwork\CartItemInfo
+     * @return \Lyranetwork\Model\CartItemInfo
      */
     public function setProductVat($productVat)
     {
@@ -166,7 +166,7 @@ class CartItemInfo
 
     /**
      * @param string $productExtId
-     * @return \Lyranetwork\CartItemInfo
+     * @return \Lyranetwork\Model\CartItemInfo
      */
     public function setProductExtId($productExtId)
     {

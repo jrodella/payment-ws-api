@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class UpdateTokenResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\UpdateTokenResult $updateTokenResult
+     * @var \Lyranetwork\Model\UpdateTokenResult $updateTokenResult
      */
     private $updateTokenResult = null;
 
     /**
-     * @return \Lyranetwork\UpdateTokenResult
+     * @return \Lyranetwork\Model\UpdateTokenResult
      */
     public function getUpdateTokenResult()
     {
@@ -27,8 +27,8 @@ class UpdateTokenResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\UpdateTokenResult $updateTokenResult
-     * @return \Lyranetwork\UpdateTokenResponse
+     * @param \Lyranetwork\Model\UpdateTokenResult $updateTokenResult
+     * @return \Lyranetwork\Model\UpdateTokenResponse
      */
     public function setUpdateTokenResult($updateTokenResult)
     {

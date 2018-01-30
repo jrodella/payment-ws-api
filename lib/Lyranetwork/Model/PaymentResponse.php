@@ -79,7 +79,7 @@ class PaymentResponse
     private $sequenceNumber = null;
 
     /**
-     * @var \Lyranetwork\PaymentType $paymentType
+     * @var \Lyranetwork\Model\PaymentType $paymentType
      */
     private $paymentType = null;
 
@@ -108,7 +108,7 @@ class PaymentResponse
 
     /**
      * @param string $transactionId
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setTransactionId($transactionId)
     {
@@ -126,7 +126,7 @@ class PaymentResponse
 
     /**
      * @param int $amount
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setAmount($amount)
     {
@@ -144,7 +144,7 @@ class PaymentResponse
 
     /**
      * @param int $currency
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setCurrency($currency)
     {
@@ -162,7 +162,7 @@ class PaymentResponse
 
     /**
      * @param int $effectiveAmount
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setEffectiveAmount($effectiveAmount)
     {
@@ -180,7 +180,7 @@ class PaymentResponse
 
     /**
      * @param int $effectiveCurrency
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setEffectiveCurrency($effectiveCurrency)
     {
@@ -206,7 +206,7 @@ class PaymentResponse
 
     /**
      * @param \DateTime $expectedCaptureDate
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setExpectedCaptureDate(\DateTime $expectedCaptureDate = null)
     {
@@ -228,7 +228,7 @@ class PaymentResponse
 
     /**
      * @param int $manualValidation
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setManualValidation($manualValidation)
     {
@@ -246,7 +246,7 @@ class PaymentResponse
 
     /**
      * @param int $operationType
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setOperationType($operationType)
     {
@@ -272,7 +272,7 @@ class PaymentResponse
 
     /**
      * @param \DateTime $creationDate
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setCreationDate(\DateTime $creationDate = null)
     {
@@ -294,7 +294,7 @@ class PaymentResponse
 
     /**
      * @param string $externalTransactionId
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setExternalTransactionId($externalTransactionId)
     {
@@ -312,7 +312,7 @@ class PaymentResponse
 
     /**
      * @param string $liabilityShift
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setLiabilityShift($liabilityShift)
     {
@@ -330,7 +330,7 @@ class PaymentResponse
 
     /**
      * @param string $transactionUuid
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setTransactionUuid($transactionUuid)
     {
@@ -348,7 +348,7 @@ class PaymentResponse
 
     /**
      * @param int $sequenceNumber
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setSequenceNumber($sequenceNumber)
     {
@@ -357,7 +357,7 @@ class PaymentResponse
     }
 
     /**
-     * @return \Lyranetwork\PaymentType
+     * @return \Lyranetwork\Model\PaymentType
      */
     public function getPaymentType()
     {
@@ -365,8 +365,8 @@ class PaymentResponse
     }
 
     /**
-     * @param \Lyranetwork\PaymentType $paymentType
-     * @return \Lyranetwork\PaymentResponse
+     * @param \Lyranetwork\Model\PaymentType $paymentType
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setPaymentType($paymentType)
     {
@@ -384,7 +384,7 @@ class PaymentResponse
 
     /**
      * @param string $nsu
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setNsu($nsu)
     {
@@ -402,7 +402,7 @@ class PaymentResponse
 
     /**
      * @param int $paymentError
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setPaymentError($paymentError)
     {
@@ -420,7 +420,7 @@ class PaymentResponse
 
     /**
      * @param string $wallet
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function setWallet($wallet)
     {

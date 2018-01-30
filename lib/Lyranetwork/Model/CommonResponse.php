@@ -63,7 +63,7 @@ class CommonResponse
 
     /**
      * @param int $responseCode
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function setResponseCode($responseCode)
     {
@@ -81,7 +81,7 @@ class CommonResponse
 
     /**
      * @param string $responseCodeDetail
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function setResponseCodeDetail($responseCodeDetail)
     {
@@ -99,7 +99,7 @@ class CommonResponse
 
     /**
      * @param string $transactionStatusLabel
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function setTransactionStatusLabel($transactionStatusLabel)
     {
@@ -117,7 +117,7 @@ class CommonResponse
 
     /**
      * @param string $shopId
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function setShopId($shopId)
     {
@@ -135,7 +135,7 @@ class CommonResponse
 
     /**
      * @param string $paymentSource
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function setPaymentSource($paymentSource)
     {
@@ -161,7 +161,7 @@ class CommonResponse
 
     /**
      * @param \DateTime $submissionDate
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function setSubmissionDate(\DateTime $submissionDate = null)
     {
@@ -183,7 +183,7 @@ class CommonResponse
 
     /**
      * @param string $contractNumber
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function setContractNumber($contractNumber)
     {
@@ -201,7 +201,7 @@ class CommonResponse
 
     /**
      * @param string $paymentToken
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function setPaymentToken($paymentToken)
     {

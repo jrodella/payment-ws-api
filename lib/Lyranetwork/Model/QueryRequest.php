@@ -43,7 +43,7 @@ class QueryRequest
 
     /**
      * @param string $uuid
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function setUuid($uuid)
     {
@@ -61,7 +61,7 @@ class QueryRequest
 
     /**
      * @param string $orderId
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function setOrderId($orderId)
     {
@@ -79,7 +79,7 @@ class QueryRequest
 
     /**
      * @param string $subscriptionId
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function setSubscriptionId($subscriptionId)
     {
@@ -97,7 +97,7 @@ class QueryRequest
 
     /**
      * @param string $paymentToken
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function setPaymentToken($paymentToken)
     {

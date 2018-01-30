@@ -29,7 +29,7 @@ class ShoppingCartRequest
     private $taxAmount = null;
 
     /**
-     * @var \Lyranetwork\CartItemInfo[] $cartItemInfo
+     * @var \Lyranetwork\Model\CartItemInfo[] $cartItemInfo
      */
     private $cartItemInfo = null;
 
@@ -43,7 +43,7 @@ class ShoppingCartRequest
 
     /**
      * @param int $insuranceAmount
-     * @return \Lyranetwork\ShoppingCartRequest
+     * @return \Lyranetwork\Model\ShoppingCartRequest
      */
     public function setInsuranceAmount($insuranceAmount)
     {
@@ -61,7 +61,7 @@ class ShoppingCartRequest
 
     /**
      * @param int $shippingAmount
-     * @return \Lyranetwork\ShoppingCartRequest
+     * @return \Lyranetwork\Model\ShoppingCartRequest
      */
     public function setShippingAmount($shippingAmount)
     {
@@ -79,7 +79,7 @@ class ShoppingCartRequest
 
     /**
      * @param int $taxAmount
-     * @return \Lyranetwork\ShoppingCartRequest
+     * @return \Lyranetwork\Model\ShoppingCartRequest
      */
     public function setTaxAmount($taxAmount)
     {
@@ -88,7 +88,7 @@ class ShoppingCartRequest
     }
 
     /**
-     * @return \Lyranetwork\CartItemInfo[]
+     * @return \Lyranetwork\Model\CartItemInfo[]
      */
     public function getCartItemInfo()
     {
@@ -96,8 +96,8 @@ class ShoppingCartRequest
     }
 
     /**
-     * @param \Lyranetwork\CartItemInfo[] $cartItemInfo
-     * @return \Lyranetwork\ShoppingCartRequest
+     * @param \Lyranetwork\Model\CartItemInfo[] $cartItemInfo
+     * @return \Lyranetwork\Model\ShoppingCartRequest
      */
     public function setCartItemInfo(array $cartItemInfo)
     {

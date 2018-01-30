@@ -38,7 +38,7 @@ class LegacyTransactionKeyRequest
 
     /**
      * @param string $transactionId
-     * @return \Lyranetwork\LegacyTransactionKeyRequest
+     * @return \Lyranetwork\Model\LegacyTransactionKeyRequest
      */
     public function setTransactionId($transactionId)
     {
@@ -56,7 +56,7 @@ class LegacyTransactionKeyRequest
 
     /**
      * @param int $sequenceNumber
-     * @return \Lyranetwork\LegacyTransactionKeyRequest
+     * @return \Lyranetwork\Model\LegacyTransactionKeyRequest
      */
     public function setSequenceNumber($sequenceNumber)
     {
@@ -82,7 +82,7 @@ class LegacyTransactionKeyRequest
 
     /**
      * @param \DateTime $creationDate
-     * @return \Lyranetwork\LegacyTransactionKeyRequest
+     * @return \Lyranetwork\Model\LegacyTransactionKeyRequest
      */
     public function setCreationDate(\DateTime $creationDate = null)
     {

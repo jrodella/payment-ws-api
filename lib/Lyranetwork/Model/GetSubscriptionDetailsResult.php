@@ -14,72 +14,72 @@ namespace Lyranetwork\Model;
 class GetSubscriptionDetailsResult
 {
     /**
-     * @var \Lyranetwork\CommonResponse $commonResponse
+     * @var \Lyranetwork\Model\CommonResponse $commonResponse
      */
     private $commonResponse = null;
 
     /**
-     * @var \Lyranetwork\PaymentResponse $paymentResponse
+     * @var \Lyranetwork\Model\PaymentResponse $paymentResponse
      */
     private $paymentResponse = null;
 
     /**
-     * @var \Lyranetwork\OrderResponse $orderResponse
+     * @var \Lyranetwork\Model\OrderResponse $orderResponse
      */
     private $orderResponse = null;
 
     /**
-     * @var \Lyranetwork\CardResponse $cardResponse
+     * @var \Lyranetwork\Model\CardResponse $cardResponse
      */
     private $cardResponse = null;
 
     /**
-     * @var \Lyranetwork\AuthorizationResponse $authorizationResponse
+     * @var \Lyranetwork\Model\AuthorizationResponse $authorizationResponse
      */
     private $authorizationResponse = null;
 
     /**
-     * @var \Lyranetwork\CaptureResponse $captureResponse
+     * @var \Lyranetwork\Model\CaptureResponse $captureResponse
      */
     private $captureResponse = null;
 
     /**
-     * @var \Lyranetwork\CustomerResponse $customerResponse
+     * @var \Lyranetwork\Model\CustomerResponse $customerResponse
      */
     private $customerResponse = null;
 
     /**
-     * @var \Lyranetwork\MarkResponse $markResponse
+     * @var \Lyranetwork\Model\MarkResponse $markResponse
      */
     private $markResponse = null;
 
     /**
-     * @var \Lyranetwork\SubscriptionResponse $subscriptionResponse
+     * @var \Lyranetwork\Model\SubscriptionResponse $subscriptionResponse
      */
     private $subscriptionResponse = null;
 
     /**
-     * @var \Lyranetwork\ExtraResponse $extraResponse
+     * @var \Lyranetwork\Model\ExtraResponse $extraResponse
      */
     private $extraResponse = null;
 
     /**
-     * @var \Lyranetwork\FraudManagementResponse $fraudManagementResponse
+     * @var \Lyranetwork\Model\FraudManagementResponse $fraudManagementResponse
      */
     private $fraudManagementResponse = null;
 
     /**
-     * @var \Lyranetwork\ThreeDSResponse $threeDSResponse
+     * @var \Lyranetwork\Model\ThreeDSResponse $threeDSResponse
      */
     private $threeDSResponse = null;
 
     /**
-     * @var \Lyranetwork\TokenResponse $tokenResponse
+     * @var \Lyranetwork\Model\TokenResponse $tokenResponse
      */
     private $tokenResponse = null;
 
     /**
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function getCommonResponse()
     {
@@ -87,8 +87,8 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\CommonResponse $commonResponse
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @param \Lyranetwork\Model\CommonResponse $commonResponse
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function setCommonResponse($commonResponse)
     {
@@ -97,7 +97,7 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\PaymentResponse
+     * @return \Lyranetwork\Model\PaymentResponse
      */
     public function getPaymentResponse()
     {
@@ -105,8 +105,8 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\PaymentResponse $paymentResponse
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @param \Lyranetwork\Model\PaymentResponse $paymentResponse
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function setPaymentResponse($paymentResponse)
     {
@@ -115,7 +115,7 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\OrderResponse
+     * @return \Lyranetwork\Model\OrderResponse
      */
     public function getOrderResponse()
     {
@@ -123,8 +123,8 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\OrderResponse $orderResponse
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @param \Lyranetwork\Model\OrderResponse $orderResponse
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function setOrderResponse($orderResponse)
     {
@@ -133,7 +133,7 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\CardResponse
+     * @return \Lyranetwork\Model\CardResponse
      */
     public function getCardResponse()
     {
@@ -141,8 +141,8 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\CardResponse $cardResponse
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @param \Lyranetwork\Model\CardResponse $cardResponse
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function setCardResponse($cardResponse)
     {
@@ -151,7 +151,7 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\AuthorizationResponse
+     * @return \Lyranetwork\Model\AuthorizationResponse
      */
     public function getAuthorizationResponse()
     {
@@ -159,8 +159,8 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\AuthorizationResponse $authorizationResponse
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @param \Lyranetwork\Model\AuthorizationResponse $authorizationResponse
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function setAuthorizationResponse($authorizationResponse)
     {
@@ -169,7 +169,7 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\CaptureResponse
+     * @return \Lyranetwork\Model\CaptureResponse
      */
     public function getCaptureResponse()
     {
@@ -177,8 +177,8 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\CaptureResponse $captureResponse
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @param \Lyranetwork\Model\CaptureResponse $captureResponse
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function setCaptureResponse($captureResponse)
     {
@@ -187,7 +187,7 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\CustomerResponse
+     * @return \Lyranetwork\Model\CustomerResponse
      */
     public function getCustomerResponse()
     {
@@ -195,8 +195,8 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\CustomerResponse $customerResponse
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @param \Lyranetwork\Model\CustomerResponse $customerResponse
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function setCustomerResponse($customerResponse)
     {
@@ -205,7 +205,7 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\MarkResponse
+     * @return \Lyranetwork\Model\MarkResponse
      */
     public function getMarkResponse()
     {
@@ -213,8 +213,8 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\MarkResponse $markResponse
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @param \Lyranetwork\Model\MarkResponse $markResponse
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function setMarkResponse($markResponse)
     {
@@ -223,7 +223,7 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\SubscriptionResponse
+     * @return \Lyranetwork\Model\SubscriptionResponse
      */
     public function getSubscriptionResponse()
     {
@@ -231,8 +231,8 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\SubscriptionResponse $subscriptionResponse
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @param \Lyranetwork\Model\SubscriptionResponse $subscriptionResponse
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function setSubscriptionResponse($subscriptionResponse)
     {
@@ -241,7 +241,7 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\ExtraResponse
+     * @return \Lyranetwork\Model\ExtraResponse
      */
     public function getExtraResponse()
     {
@@ -249,8 +249,8 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\ExtraResponse $extraResponse
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @param \Lyranetwork\Model\ExtraResponse $extraResponse
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function setExtraResponse($extraResponse)
     {
@@ -259,7 +259,7 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\FraudManagementResponse
+     * @return \Lyranetwork\Model\FraudManagementResponse
      */
     public function getFraudManagementResponse()
     {
@@ -267,8 +267,8 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\FraudManagementResponse $fraudManagementResponse
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @param \Lyranetwork\Model\FraudManagementResponse $fraudManagementResponse
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function setFraudManagementResponse($fraudManagementResponse)
     {
@@ -277,7 +277,7 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\ThreeDSResponse
+     * @return \Lyranetwork\Model\ThreeDSResponse
      */
     public function getThreeDSResponse()
     {
@@ -285,8 +285,8 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\ThreeDSResponse $threeDSResponse
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @param \Lyranetwork\Model\ThreeDSResponse $threeDSResponse
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function setThreeDSResponse($threeDSResponse)
     {
@@ -295,7 +295,7 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @return \Lyranetwork\TokenResponse
+     * @return \Lyranetwork\Model\TokenResponse
      */
     public function getTokenResponse()
     {
@@ -303,8 +303,8 @@ class GetSubscriptionDetailsResult
     }
 
     /**
-     * @param \Lyranetwork\TokenResponse $tokenResponse
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @param \Lyranetwork\Model\TokenResponse $tokenResponse
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function setTokenResponse($tokenResponse)
     {

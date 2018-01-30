@@ -63,7 +63,7 @@ class CardResponse
 
     /**
      * @param string $number
-     * @return \Lyranetwork\CardResponse
+     * @return \Lyranetwork\Model\CardResponse
      */
     public function setNumber($number)
     {
@@ -81,7 +81,7 @@ class CardResponse
 
     /**
      * @param string $scheme
-     * @return \Lyranetwork\CardResponse
+     * @return \Lyranetwork\Model\CardResponse
      */
     public function setScheme($scheme)
     {
@@ -99,7 +99,7 @@ class CardResponse
 
     /**
      * @param string $brand
-     * @return \Lyranetwork\CardResponse
+     * @return \Lyranetwork\Model\CardResponse
      */
     public function setBrand($brand)
     {
@@ -117,7 +117,7 @@ class CardResponse
 
     /**
      * @param string $country
-     * @return \Lyranetwork\CardResponse
+     * @return \Lyranetwork\Model\CardResponse
      */
     public function setCountry($country)
     {
@@ -135,7 +135,7 @@ class CardResponse
 
     /**
      * @param string $productCode
-     * @return \Lyranetwork\CardResponse
+     * @return \Lyranetwork\Model\CardResponse
      */
     public function setProductCode($productCode)
     {
@@ -153,7 +153,7 @@ class CardResponse
 
     /**
      * @param string $bankCode
-     * @return \Lyranetwork\CardResponse
+     * @return \Lyranetwork\Model\CardResponse
      */
     public function setBankCode($bankCode)
     {
@@ -171,7 +171,7 @@ class CardResponse
 
     /**
      * @param int $expiryMonth
-     * @return \Lyranetwork\CardResponse
+     * @return \Lyranetwork\Model\CardResponse
      */
     public function setExpiryMonth($expiryMonth)
     {
@@ -189,7 +189,7 @@ class CardResponse
 
     /**
      * @param int $expiryYear
-     * @return \Lyranetwork\CardResponse
+     * @return \Lyranetwork\Model\CardResponse
      */
     public function setExpiryYear($expiryYear)
     {

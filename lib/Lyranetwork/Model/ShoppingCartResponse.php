@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class ShoppingCartResponse
 {
     /**
-     * @var \Lyranetwork\CartItemInfo[] $cartItemInfo
+     * @var \Lyranetwork\Model\CartItemInfo[] $cartItemInfo
      */
     private $cartItemInfo = null;
 
     /**
-     * @return \Lyranetwork\CartItemInfo[]
+     * @return \Lyranetwork\Model\CartItemInfo[]
      */
     public function getCartItemInfo()
     {
@@ -27,8 +27,8 @@ class ShoppingCartResponse
     }
 
     /**
-     * @param \Lyranetwork\CartItemInfo[] $cartItemInfo
-     * @return \Lyranetwork\ShoppingCartResponse
+     * @param \Lyranetwork\Model\CartItemInfo[] $cartItemInfo
+     * @return \Lyranetwork\Model\ShoppingCartResponse
      */
     public function setCartItemInfo(array $cartItemInfo = null)
     {

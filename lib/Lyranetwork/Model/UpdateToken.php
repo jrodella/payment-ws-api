@@ -14,27 +14,27 @@ namespace Lyranetwork\Model;
 class UpdateToken
 {
     /**
-     * @var \Lyranetwork\CommonRequest $commonRequest
+     * @var \Lyranetwork\Model\CommonRequest $commonRequest
      */
     private $commonRequest = null;
 
     /**
-     * @var \Lyranetwork\QueryRequest $queryRequest
+     * @var \Lyranetwork\Model\QueryRequest $queryRequest
      */
     private $queryRequest = null;
 
     /**
-     * @var \Lyranetwork\CardRequest $cardRequest
+     * @var \Lyranetwork\Model\CardRequest $cardRequest
      */
     private $cardRequest = null;
 
     /**
-     * @var \Lyranetwork\CustomerRequest $customerRequest
+     * @var \Lyranetwork\Model\CustomerRequest $customerRequest
      */
     private $customerRequest = null;
 
     /**
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function getCommonRequest()
     {
@@ -42,8 +42,8 @@ class UpdateToken
     }
 
     /**
-     * @param \Lyranetwork\CommonRequest $commonRequest
-     * @return \Lyranetwork\UpdateToken
+     * @param \Lyranetwork\Model\CommonRequest $commonRequest
+     * @return \Lyranetwork\Model\UpdateToken
      */
     public function setCommonRequest($commonRequest)
     {
@@ -52,7 +52,7 @@ class UpdateToken
     }
 
     /**
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function getQueryRequest()
     {
@@ -60,8 +60,8 @@ class UpdateToken
     }
 
     /**
-     * @param \Lyranetwork\QueryRequest $queryRequest
-     * @return \Lyranetwork\UpdateToken
+     * @param \Lyranetwork\Model\QueryRequest $queryRequest
+     * @return \Lyranetwork\Model\UpdateToken
      */
     public function setQueryRequest($queryRequest)
     {
@@ -70,7 +70,7 @@ class UpdateToken
     }
 
     /**
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function getCardRequest()
     {
@@ -78,8 +78,8 @@ class UpdateToken
     }
 
     /**
-     * @param \Lyranetwork\CardRequest $cardRequest
-     * @return \Lyranetwork\UpdateToken
+     * @param \Lyranetwork\Model\CardRequest $cardRequest
+     * @return \Lyranetwork\Model\UpdateToken
      */
     public function setCardRequest($cardRequest)
     {
@@ -88,7 +88,7 @@ class UpdateToken
     }
 
     /**
-     * @return \Lyranetwork\CustomerRequest
+     * @return \Lyranetwork\Model\CustomerRequest
      */
     public function getCustomerRequest()
     {
@@ -96,8 +96,8 @@ class UpdateToken
     }
 
     /**
-     * @param \Lyranetwork\CustomerRequest $customerRequest
-     * @return \Lyranetwork\UpdateToken
+     * @param \Lyranetwork\Model\CustomerRequest $customerRequest
+     * @return \Lyranetwork\Model\UpdateToken
      */
     public function setCustomerRequest($customerRequest)
     {

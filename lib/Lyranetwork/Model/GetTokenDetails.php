@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class GetTokenDetails
 {
     /**
-     * @var \Lyranetwork\QueryRequest $queryRequest
+     * @var \Lyranetwork\Model\QueryRequest $queryRequest
      */
     private $queryRequest = null;
 
     /**
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function getQueryRequest()
     {
@@ -27,8 +27,8 @@ class GetTokenDetails
     }
 
     /**
-     * @param \Lyranetwork\QueryRequest $queryRequest
-     * @return \Lyranetwork\GetTokenDetails
+     * @param \Lyranetwork\Model\QueryRequest $queryRequest
+     * @return \Lyranetwork\Model\GetTokenDetails
      */
     public function setQueryRequest($queryRequest)
     {

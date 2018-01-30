@@ -14,22 +14,22 @@ namespace Lyranetwork\Model;
 class CreateTokenFromTransaction
 {
     /**
-     * @var \Lyranetwork\CommonRequest $commonRequest
+     * @var \Lyranetwork\Model\CommonRequest $commonRequest
      */
     private $commonRequest = null;
 
     /**
-     * @var \Lyranetwork\CardRequest $cardRequest
+     * @var \Lyranetwork\Model\CardRequest $cardRequest
      */
     private $cardRequest = null;
 
     /**
-     * @var \Lyranetwork\QueryRequest $queryRequest
+     * @var \Lyranetwork\Model\QueryRequest $queryRequest
      */
     private $queryRequest = null;
 
     /**
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function getCommonRequest()
     {
@@ -37,8 +37,8 @@ class CreateTokenFromTransaction
     }
 
     /**
-     * @param \Lyranetwork\CommonRequest $commonRequest
-     * @return \Lyranetwork\CreateTokenFromTransaction
+     * @param \Lyranetwork\Model\CommonRequest $commonRequest
+     * @return \Lyranetwork\Model\CreateTokenFromTransaction
      */
     public function setCommonRequest($commonRequest)
     {
@@ -47,7 +47,7 @@ class CreateTokenFromTransaction
     }
 
     /**
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function getCardRequest()
     {
@@ -55,8 +55,8 @@ class CreateTokenFromTransaction
     }
 
     /**
-     * @param \Lyranetwork\CardRequest $cardRequest
-     * @return \Lyranetwork\CreateTokenFromTransaction
+     * @param \Lyranetwork\Model\CardRequest $cardRequest
+     * @return \Lyranetwork\Model\CreateTokenFromTransaction
      */
     public function setCardRequest($cardRequest)
     {
@@ -65,7 +65,7 @@ class CreateTokenFromTransaction
     }
 
     /**
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function getQueryRequest()
     {
@@ -73,8 +73,8 @@ class CreateTokenFromTransaction
     }
 
     /**
-     * @param \Lyranetwork\QueryRequest $queryRequest
-     * @return \Lyranetwork\CreateTokenFromTransaction
+     * @param \Lyranetwork\Model\QueryRequest $queryRequest
+     * @return \Lyranetwork\Model\CreateTokenFromTransaction
      */
     public function setQueryRequest($queryRequest)
     {

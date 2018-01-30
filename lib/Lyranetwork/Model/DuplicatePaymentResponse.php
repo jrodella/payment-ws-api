@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class DuplicatePaymentResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\DuplicatePaymentResult $duplicatePaymentResult
+     * @var \Lyranetwork\Model\DuplicatePaymentResult $duplicatePaymentResult
      */
     private $duplicatePaymentResult = null;
 
     /**
-     * @return \Lyranetwork\DuplicatePaymentResult
+     * @return \Lyranetwork\Model\DuplicatePaymentResult
      */
     public function getDuplicatePaymentResult()
     {
@@ -27,8 +27,8 @@ class DuplicatePaymentResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\DuplicatePaymentResult $duplicatePaymentResult
-     * @return \Lyranetwork\DuplicatePaymentResponse
+     * @param \Lyranetwork\Model\DuplicatePaymentResult $duplicatePaymentResult
+     * @return \Lyranetwork\Model\DuplicatePaymentResponse
      */
     public function setDuplicatePaymentResult($duplicatePaymentResult)
     {

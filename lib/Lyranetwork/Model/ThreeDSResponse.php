@@ -14,17 +14,17 @@ namespace Lyranetwork\Model;
 class ThreeDSResponse
 {
     /**
-     * @var \Lyranetwork\AuthenticationRequestData $authenticationRequestData
+     * @var \Lyranetwork\Model\AuthenticationRequestData $authenticationRequestData
      */
     private $authenticationRequestData = null;
 
     /**
-     * @var \Lyranetwork\AuthenticationResultData $authenticationResultData
+     * @var \Lyranetwork\Model\AuthenticationResultData $authenticationResultData
      */
     private $authenticationResultData = null;
 
     /**
-     * @return \Lyranetwork\AuthenticationRequestData
+     * @return \Lyranetwork\Model\AuthenticationRequestData
      */
     public function getAuthenticationRequestData()
     {
@@ -32,8 +32,8 @@ class ThreeDSResponse
     }
 
     /**
-     * @param \Lyranetwork\AuthenticationRequestData $authenticationRequestData
-     * @return \Lyranetwork\ThreeDSResponse
+     * @param \Lyranetwork\Model\AuthenticationRequestData $authenticationRequestData
+     * @return \Lyranetwork\Model\ThreeDSResponse
      */
     public function setAuthenticationRequestData($authenticationRequestData)
     {
@@ -42,7 +42,7 @@ class ThreeDSResponse
     }
 
     /**
-     * @return \Lyranetwork\AuthenticationResultData
+     * @return \Lyranetwork\Model\AuthenticationResultData
      */
     public function getAuthenticationResultData()
     {
@@ -50,8 +50,8 @@ class ThreeDSResponse
     }
 
     /**
-     * @param \Lyranetwork\AuthenticationResultData $authenticationResultData
-     * @return \Lyranetwork\ThreeDSResponse
+     * @param \Lyranetwork\Model\AuthenticationResultData $authenticationResultData
+     * @return \Lyranetwork\Model\ThreeDSResponse
      */
     public function setAuthenticationResultData($authenticationResultData)
     {

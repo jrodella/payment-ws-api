@@ -33,7 +33,7 @@ class ExtraDetailsRequest
 
     /**
      * @param string $ipAddress
-     * @return \Lyranetwork\ExtraDetailsRequest
+     * @return \Lyranetwork\Model\ExtraDetailsRequest
      */
     public function setIpAddress($ipAddress)
     {
@@ -51,7 +51,7 @@ class ExtraDetailsRequest
 
     /**
      * @param string $fingerPrintId
-     * @return \Lyranetwork\ExtraDetailsRequest
+     * @return \Lyranetwork\Model\ExtraDetailsRequest
      */
     public function setFingerPrintId($fingerPrintId)
     {

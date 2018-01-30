@@ -38,7 +38,7 @@ class SettlementRequest
 
     /**
      * @param string[] $transactionUuids
-     * @return \Lyranetwork\SettlementRequest
+     * @return \Lyranetwork\Model\SettlementRequest
      */
     public function setTransactionUuids(array $transactionUuids = null)
     {
@@ -56,7 +56,7 @@ class SettlementRequest
 
     /**
      * @param float $commission
-     * @return \Lyranetwork\SettlementRequest
+     * @return \Lyranetwork\Model\SettlementRequest
      */
     public function setCommission($commission)
     {
@@ -82,7 +82,7 @@ class SettlementRequest
 
     /**
      * @param \DateTime $date
-     * @return \Lyranetwork\SettlementRequest
+     * @return \Lyranetwork\Model\SettlementRequest
      */
     public function setDate(\DateTime $date = null)
     {

@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class GetPaymentUuidResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\LegacyTransactionKeyResult $legacyTransactionKeyResult
+     * @var \Lyranetwork\Model\LegacyTransactionKeyResult $legacyTransactionKeyResult
      */
     private $legacyTransactionKeyResult = null;
 
     /**
-     * @return \Lyranetwork\LegacyTransactionKeyResult
+     * @return \Lyranetwork\Model\LegacyTransactionKeyResult
      */
     public function getLegacyTransactionKeyResult()
     {
@@ -27,8 +27,8 @@ class GetPaymentUuidResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\LegacyTransactionKeyResult $legacyTransactionKeyResult
-     * @return \Lyranetwork\GetPaymentUuidResponse
+     * @param \Lyranetwork\Model\LegacyTransactionKeyResult $legacyTransactionKeyResult
+     * @return \Lyranetwork\Model\GetPaymentUuidResponse
      */
     public function setLegacyTransactionKeyResult($legacyTransactionKeyResult)
     {

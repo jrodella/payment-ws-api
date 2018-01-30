@@ -73,7 +73,7 @@ class PaymentRequest
 
     /**
      * @param string $transactionId
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function setTransactionId($transactionId)
     {
@@ -91,7 +91,7 @@ class PaymentRequest
 
     /**
      * @param string $retryUuid
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function setRetryUuid($retryUuid)
     {
@@ -109,7 +109,7 @@ class PaymentRequest
 
     /**
      * @param int $amount
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function setAmount($amount)
     {
@@ -127,7 +127,7 @@ class PaymentRequest
 
     /**
      * @param int $currency
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function setCurrency($currency)
     {
@@ -153,7 +153,7 @@ class PaymentRequest
 
     /**
      * @param \DateTime $expectedCaptureDate
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function setExpectedCaptureDate(\DateTime $expectedCaptureDate = null)
     {
@@ -175,7 +175,7 @@ class PaymentRequest
 
     /**
      * @param int $manualValidation
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function setManualValidation($manualValidation)
     {
@@ -193,7 +193,7 @@ class PaymentRequest
 
     /**
      * @param string $paymentOptionCode
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function setPaymentOptionCode($paymentOptionCode)
     {
@@ -211,7 +211,7 @@ class PaymentRequest
 
     /**
      * @param string $acquirerTransientData
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function setAcquirerTransientData($acquirerTransientData)
     {
@@ -229,7 +229,7 @@ class PaymentRequest
 
     /**
      * @param int $firstInstallmentDelay
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function setFirstInstallmentDelay($firstInstallmentDelay)
     {
@@ -247,7 +247,7 @@ class PaymentRequest
 
     /**
      * @param string $overridePaymentCinematic
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function setOverridePaymentCinematic($overridePaymentCinematic)
     {

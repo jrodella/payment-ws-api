@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class GetSubscriptionDetails
 {
     /**
-     * @var \Lyranetwork\QueryRequest $queryRequest
+     * @var \Lyranetwork\Model\QueryRequest $queryRequest
      */
     private $queryRequest = null;
 
     /**
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function getQueryRequest()
     {
@@ -27,8 +27,8 @@ class GetSubscriptionDetails
     }
 
     /**
-     * @param \Lyranetwork\QueryRequest $queryRequest
-     * @return \Lyranetwork\GetSubscriptionDetails
+     * @param \Lyranetwork\Model\QueryRequest $queryRequest
+     * @return \Lyranetwork\Model\GetSubscriptionDetails
      */
     public function setQueryRequest($queryRequest)
     {

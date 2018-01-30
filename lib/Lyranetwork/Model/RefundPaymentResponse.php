@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class RefundPaymentResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\RefundPaymentResult $refundPaymentResult
+     * @var \Lyranetwork\Model\RefundPaymentResult $refundPaymentResult
      */
     private $refundPaymentResult = null;
 
     /**
-     * @return \Lyranetwork\RefundPaymentResult
+     * @return \Lyranetwork\Model\RefundPaymentResult
      */
     public function getRefundPaymentResult()
     {
@@ -27,8 +27,8 @@ class RefundPaymentResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\RefundPaymentResult $refundPaymentResult
-     * @return \Lyranetwork\RefundPaymentResponse
+     * @param \Lyranetwork\Model\RefundPaymentResult $refundPaymentResult
+     * @return \Lyranetwork\Model\RefundPaymentResponse
      */
     public function setRefundPaymentResult($refundPaymentResult)
     {

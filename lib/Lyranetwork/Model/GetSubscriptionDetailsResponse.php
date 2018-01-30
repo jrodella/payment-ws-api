@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class GetSubscriptionDetailsResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\GetSubscriptionDetailsResult $getSubscriptionDetailsResult
+     * @var \Lyranetwork\Model\GetSubscriptionDetailsResult $getSubscriptionDetailsResult
      */
     private $getSubscriptionDetailsResult = null;
 
     /**
-     * @return \Lyranetwork\GetSubscriptionDetailsResult
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResult
      */
     public function getGetSubscriptionDetailsResult()
     {
@@ -27,8 +27,8 @@ class GetSubscriptionDetailsResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\GetSubscriptionDetailsResult $getSubscriptionDetailsResult
-     * @return \Lyranetwork\GetSubscriptionDetailsResponse
+     * @param \Lyranetwork\Model\GetSubscriptionDetailsResult $getSubscriptionDetailsResult
+     * @return \Lyranetwork\Model\GetSubscriptionDetailsResponse
      */
     public function setGetSubscriptionDetailsResult($getSubscriptionDetailsResult)
     {

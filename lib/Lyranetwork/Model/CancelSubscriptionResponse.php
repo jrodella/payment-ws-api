@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class CancelSubscriptionResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\CancelSubscriptionResult $cancelSubscriptionResult
+     * @var \Lyranetwork\Model\CancelSubscriptionResult $cancelSubscriptionResult
      */
     private $cancelSubscriptionResult = null;
 
     /**
-     * @return \Lyranetwork\CancelSubscriptionResult
+     * @return \Lyranetwork\Model\CancelSubscriptionResult
      */
     public function getCancelSubscriptionResult()
     {
@@ -27,8 +27,8 @@ class CancelSubscriptionResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\CancelSubscriptionResult $cancelSubscriptionResult
-     * @return \Lyranetwork\CancelSubscriptionResponse
+     * @param \Lyranetwork\Model\CancelSubscriptionResult $cancelSubscriptionResult
+     * @return \Lyranetwork\Model\CancelSubscriptionResponse
      */
     public function setCancelSubscriptionResult($cancelSubscriptionResult)
     {

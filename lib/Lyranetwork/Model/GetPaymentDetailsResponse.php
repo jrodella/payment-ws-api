@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class GetPaymentDetailsResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\GetPaymentDetailsResult $getPaymentDetailsResult
+     * @var \Lyranetwork\Model\GetPaymentDetailsResult $getPaymentDetailsResult
      */
     private $getPaymentDetailsResult = null;
 
     /**
-     * @return \Lyranetwork\GetPaymentDetailsResult
+     * @return \Lyranetwork\Model\GetPaymentDetailsResult
      */
     public function getGetPaymentDetailsResult()
     {
@@ -27,8 +27,8 @@ class GetPaymentDetailsResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\GetPaymentDetailsResult $getPaymentDetailsResult
-     * @return \Lyranetwork\GetPaymentDetailsResponse
+     * @param \Lyranetwork\Model\GetPaymentDetailsResult $getPaymentDetailsResult
+     * @return \Lyranetwork\Model\GetPaymentDetailsResponse
      */
     public function setGetPaymentDetailsResult($getPaymentDetailsResult)
     {

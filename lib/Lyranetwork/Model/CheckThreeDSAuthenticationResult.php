@@ -14,17 +14,17 @@ namespace Lyranetwork\Model;
 class CheckThreeDSAuthenticationResult
 {
     /**
-     * @var \Lyranetwork\CommonResponse $commonResponse
+     * @var \Lyranetwork\Model\CommonResponse $commonResponse
      */
     private $commonResponse = null;
 
     /**
-     * @var \Lyranetwork\ThreeDSResponse $threeDSResponse
+     * @var \Lyranetwork\Model\ThreeDSResponse $threeDSResponse
      */
     private $threeDSResponse = null;
 
     /**
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function getCommonResponse()
     {
@@ -32,8 +32,8 @@ class CheckThreeDSAuthenticationResult
     }
 
     /**
-     * @param \Lyranetwork\CommonResponse $commonResponse
-     * @return \Lyranetwork\CheckThreeDSAuthenticationResult
+     * @param \Lyranetwork\Model\CommonResponse $commonResponse
+     * @return \Lyranetwork\Model\CheckThreeDSAuthenticationResult
      */
     public function setCommonResponse($commonResponse)
     {
@@ -42,7 +42,7 @@ class CheckThreeDSAuthenticationResult
     }
 
     /**
-     * @return \Lyranetwork\ThreeDSResponse
+     * @return \Lyranetwork\Model\ThreeDSResponse
      */
     public function getThreeDSResponse()
     {
@@ -50,8 +50,8 @@ class CheckThreeDSAuthenticationResult
     }
 
     /**
-     * @param \Lyranetwork\ThreeDSResponse $threeDSResponse
-     * @return \Lyranetwork\CheckThreeDSAuthenticationResult
+     * @param \Lyranetwork\Model\ThreeDSResponse $threeDSResponse
+     * @return \Lyranetwork\Model\CheckThreeDSAuthenticationResult
      */
     public function setThreeDSResponse($threeDSResponse)
     {

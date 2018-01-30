@@ -63,7 +63,7 @@ class SubscriptionRequest
 
     /**
      * @param string $subscriptionId
-     * @return \Lyranetwork\SubscriptionRequest
+     * @return \Lyranetwork\Model\SubscriptionRequest
      */
     public function setSubscriptionId($subscriptionId)
     {
@@ -89,7 +89,7 @@ class SubscriptionRequest
 
     /**
      * @param \DateTime $effectDate
-     * @return \Lyranetwork\SubscriptionRequest
+     * @return \Lyranetwork\Model\SubscriptionRequest
      */
     public function setEffectDate(\DateTime $effectDate = null)
     {
@@ -111,7 +111,7 @@ class SubscriptionRequest
 
     /**
      * @param int $amount
-     * @return \Lyranetwork\SubscriptionRequest
+     * @return \Lyranetwork\Model\SubscriptionRequest
      */
     public function setAmount($amount)
     {
@@ -129,7 +129,7 @@ class SubscriptionRequest
 
     /**
      * @param int $currency
-     * @return \Lyranetwork\SubscriptionRequest
+     * @return \Lyranetwork\Model\SubscriptionRequest
      */
     public function setCurrency($currency)
     {
@@ -147,7 +147,7 @@ class SubscriptionRequest
 
     /**
      * @param int $initialAmount
-     * @return \Lyranetwork\SubscriptionRequest
+     * @return \Lyranetwork\Model\SubscriptionRequest
      */
     public function setInitialAmount($initialAmount)
     {
@@ -165,7 +165,7 @@ class SubscriptionRequest
 
     /**
      * @param int $initialAmountNumber
-     * @return \Lyranetwork\SubscriptionRequest
+     * @return \Lyranetwork\Model\SubscriptionRequest
      */
     public function setInitialAmountNumber($initialAmountNumber)
     {
@@ -183,7 +183,7 @@ class SubscriptionRequest
 
     /**
      * @param string $rrule
-     * @return \Lyranetwork\SubscriptionRequest
+     * @return \Lyranetwork\Model\SubscriptionRequest
      */
     public function setRrule($rrule)
     {
@@ -201,7 +201,7 @@ class SubscriptionRequest
 
     /**
      * @param string $description
-     * @return \Lyranetwork\SubscriptionRequest
+     * @return \Lyranetwork\Model\SubscriptionRequest
      */
     public function setDescription($description)
     {

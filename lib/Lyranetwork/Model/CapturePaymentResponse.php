@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class CapturePaymentResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\CapturePaymentResult $capturePaymentResult
+     * @var \Lyranetwork\Model\CapturePaymentResult $capturePaymentResult
      */
     private $capturePaymentResult = null;
 
     /**
-     * @return \Lyranetwork\CapturePaymentResult
+     * @return \Lyranetwork\Model\CapturePaymentResult
      */
     public function getCapturePaymentResult()
     {
@@ -27,8 +27,8 @@ class CapturePaymentResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\CapturePaymentResult $capturePaymentResult
-     * @return \Lyranetwork\CapturePaymentResponse
+     * @param \Lyranetwork\Model\CapturePaymentResult $capturePaymentResult
+     * @return \Lyranetwork\Model\CapturePaymentResponse
      */
     public function setCapturePaymentResult($capturePaymentResult)
     {

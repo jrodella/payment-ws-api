@@ -28,7 +28,7 @@ class ExtraDetailsResponse
 
     /**
      * @param string $ipAddress
-     * @return \Lyranetwork\ExtraDetailsResponse
+     * @return \Lyranetwork\Model\ExtraDetailsResponse
      */
     public function setIpAddress($ipAddress)
     {

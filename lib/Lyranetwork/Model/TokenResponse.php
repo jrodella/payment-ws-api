@@ -41,7 +41,7 @@ class TokenResponse
 
     /**
      * @param \DateTime $creationDate
-     * @return \Lyranetwork\TokenResponse
+     * @return \Lyranetwork\Model\TokenResponse
      */
     public function setCreationDate(\DateTime $creationDate = null)
     {
@@ -71,7 +71,7 @@ class TokenResponse
 
     /**
      * @param \DateTime $cancellationDate
-     * @return \Lyranetwork\TokenResponse
+     * @return \Lyranetwork\Model\TokenResponse
      */
     public function setCancellationDate(\DateTime $cancellationDate = null)
     {

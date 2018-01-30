@@ -28,7 +28,7 @@ class WsResponse
 
     /**
      * @param string $requestId
-     * @return \Lyranetwork\WsResponse
+     * @return \Lyranetwork\Model\WsResponse
      */
     public function setRequestId($requestId)
     {

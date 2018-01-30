@@ -14,32 +14,32 @@ namespace Lyranetwork\Model;
 class VerifyThreeDSEnrollment
 {
     /**
-     * @var \Lyranetwork\CommonRequest $commonRequest
+     * @var \Lyranetwork\Model\CommonRequest $commonRequest
      */
     private $commonRequest = null;
 
     /**
-     * @var \Lyranetwork\PaymentRequest $paymentRequest
+     * @var \Lyranetwork\Model\PaymentRequest $paymentRequest
      */
     private $paymentRequest = null;
 
     /**
-     * @var \Lyranetwork\CardRequest $cardRequest
+     * @var \Lyranetwork\Model\CardRequest $cardRequest
      */
     private $cardRequest = null;
 
     /**
-     * @var \Lyranetwork\TechRequest $techRequest
+     * @var \Lyranetwork\Model\TechRequest $techRequest
      */
     private $techRequest = null;
 
     /**
-     * @var \Lyranetwork\ThreeDSRequest $threeDSRequest
+     * @var \Lyranetwork\Model\ThreeDSRequest $threeDSRequest
      */
     private $threeDSRequest = null;
 
     /**
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function getCommonRequest()
     {
@@ -47,8 +47,8 @@ class VerifyThreeDSEnrollment
     }
 
     /**
-     * @param \Lyranetwork\CommonRequest $commonRequest
-     * @return \Lyranetwork\VerifyThreeDSEnrollment
+     * @param \Lyranetwork\Model\CommonRequest $commonRequest
+     * @return \Lyranetwork\Model\VerifyThreeDSEnrollment
      */
     public function setCommonRequest($commonRequest)
     {
@@ -57,7 +57,7 @@ class VerifyThreeDSEnrollment
     }
 
     /**
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function getPaymentRequest()
     {
@@ -65,8 +65,8 @@ class VerifyThreeDSEnrollment
     }
 
     /**
-     * @param \Lyranetwork\PaymentRequest $paymentRequest
-     * @return \Lyranetwork\VerifyThreeDSEnrollment
+     * @param \Lyranetwork\Model\PaymentRequest $paymentRequest
+     * @return \Lyranetwork\Model\VerifyThreeDSEnrollment
      */
     public function setPaymentRequest($paymentRequest)
     {
@@ -75,7 +75,7 @@ class VerifyThreeDSEnrollment
     }
 
     /**
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function getCardRequest()
     {
@@ -83,8 +83,8 @@ class VerifyThreeDSEnrollment
     }
 
     /**
-     * @param \Lyranetwork\CardRequest $cardRequest
-     * @return \Lyranetwork\VerifyThreeDSEnrollment
+     * @param \Lyranetwork\Model\CardRequest $cardRequest
+     * @return \Lyranetwork\Model\VerifyThreeDSEnrollment
      */
     public function setCardRequest($cardRequest)
     {
@@ -93,7 +93,7 @@ class VerifyThreeDSEnrollment
     }
 
     /**
-     * @return \Lyranetwork\TechRequest
+     * @return \Lyranetwork\Model\TechRequest
      */
     public function getTechRequest()
     {
@@ -101,8 +101,8 @@ class VerifyThreeDSEnrollment
     }
 
     /**
-     * @param \Lyranetwork\TechRequest $techRequest
-     * @return \Lyranetwork\VerifyThreeDSEnrollment
+     * @param \Lyranetwork\Model\TechRequest $techRequest
+     * @return \Lyranetwork\Model\VerifyThreeDSEnrollment
      */
     public function setTechRequest($techRequest)
     {
@@ -111,7 +111,7 @@ class VerifyThreeDSEnrollment
     }
 
     /**
-     * @return \Lyranetwork\ThreeDSRequest
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function getThreeDSRequest()
     {
@@ -119,8 +119,8 @@ class VerifyThreeDSEnrollment
     }
 
     /**
-     * @param \Lyranetwork\ThreeDSRequest $threeDSRequest
-     * @return \Lyranetwork\VerifyThreeDSEnrollment
+     * @param \Lyranetwork\Model\ThreeDSRequest $threeDSRequest
+     * @return \Lyranetwork\Model\VerifyThreeDSEnrollment
      */
     public function setThreeDSRequest($threeDSRequest)
     {

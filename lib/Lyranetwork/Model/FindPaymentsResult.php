@@ -14,22 +14,22 @@ namespace Lyranetwork\Model;
 class FindPaymentsResult
 {
     /**
-     * @var \Lyranetwork\CommonResponse $commonResponse
+     * @var \Lyranetwork\Model\CommonResponse $commonResponse
      */
     private $commonResponse = null;
 
     /**
-     * @var \Lyranetwork\OrderResponse $orderResponse
+     * @var \Lyranetwork\Model\OrderResponse $orderResponse
      */
     private $orderResponse = null;
 
     /**
-     * @var \Lyranetwork\TransactionItem $transactionItem
+     * @var \Lyranetwork\Model\TransactionItem $transactionItem
      */
     private $transactionItem = null;
 
     /**
-     * @return \Lyranetwork\CommonResponse
+     * @return \Lyranetwork\Model\CommonResponse
      */
     public function getCommonResponse()
     {
@@ -37,8 +37,8 @@ class FindPaymentsResult
     }
 
     /**
-     * @param \Lyranetwork\CommonResponse $commonResponse
-     * @return \Lyranetwork\FindPaymentsResult
+     * @param \Lyranetwork\Model\CommonResponse $commonResponse
+     * @return \Lyranetwork\Model\FindPaymentsResult
      */
     public function setCommonResponse($commonResponse)
     {
@@ -47,7 +47,7 @@ class FindPaymentsResult
     }
 
     /**
-     * @return \Lyranetwork\OrderResponse
+     * @return \Lyranetwork\Model\OrderResponse
      */
     public function getOrderResponse()
     {
@@ -55,8 +55,8 @@ class FindPaymentsResult
     }
 
     /**
-     * @param \Lyranetwork\OrderResponse $orderResponse
-     * @return \Lyranetwork\FindPaymentsResult
+     * @param \Lyranetwork\Model\OrderResponse $orderResponse
+     * @return \Lyranetwork\Model\FindPaymentsResult
      */
     public function setOrderResponse($orderResponse)
     {
@@ -65,7 +65,7 @@ class FindPaymentsResult
     }
 
     /**
-     * @return \Lyranetwork\TransactionItem
+     * @return \Lyranetwork\Model\TransactionItem
      */
     public function getTransactionItem()
     {
@@ -73,8 +73,8 @@ class FindPaymentsResult
     }
 
     /**
-     * @param \Lyranetwork\TransactionItem $transactionItem
-     * @return \Lyranetwork\FindPaymentsResult
+     * @param \Lyranetwork\Model\TransactionItem $transactionItem
+     * @return \Lyranetwork\Model\FindPaymentsResult
      */
     public function setTransactionItem($transactionItem)
     {

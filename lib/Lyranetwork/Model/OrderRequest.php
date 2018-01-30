@@ -19,7 +19,7 @@ class OrderRequest
     private $orderId = null;
 
     /**
-     * @var \Lyranetwork\ExtInfo[] $extInfo
+     * @var \Lyranetwork\Model\ExtInfo[] $extInfo
      */
     private $extInfo = null;
 
@@ -33,7 +33,7 @@ class OrderRequest
 
     /**
      * @param string $orderId
-     * @return \Lyranetwork\OrderRequest
+     * @return \Lyranetwork\Model\OrderRequest
      */
     public function setOrderId($orderId)
     {
@@ -42,7 +42,7 @@ class OrderRequest
     }
 
     /**
-     * @return \Lyranetwork\ExtInfo[]
+     * @return \Lyranetwork\Model\ExtInfo[]
      */
     public function getExtInfo()
     {
@@ -50,8 +50,8 @@ class OrderRequest
     }
 
     /**
-     * @param \Lyranetwork\ExtInfo[] $extInfo
-     * @return \Lyranetwork\OrderRequest
+     * @param \Lyranetwork\Model\ExtInfo[] $extInfo
+     * @return \Lyranetwork\Model\OrderRequest
      */
     public function setExtInfo(array $extInfo = null)
     {

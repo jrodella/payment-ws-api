@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class ValidatePaymentResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\ValidatePaymentResult $validatePaymentResult
+     * @var \Lyranetwork\Model\ValidatePaymentResult $validatePaymentResult
      */
     private $validatePaymentResult = null;
 
     /**
-     * @return \Lyranetwork\ValidatePaymentResult
+     * @return \Lyranetwork\Model\ValidatePaymentResult
      */
     public function getValidatePaymentResult()
     {
@@ -27,8 +27,8 @@ class ValidatePaymentResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\ValidatePaymentResult $validatePaymentResult
-     * @return \Lyranetwork\ValidatePaymentResponse
+     * @param \Lyranetwork\Model\ValidatePaymentResult $validatePaymentResult
+     * @return \Lyranetwork\Model\ValidatePaymentResponse
      */
     public function setValidatePaymentResult($validatePaymentResult)
     {

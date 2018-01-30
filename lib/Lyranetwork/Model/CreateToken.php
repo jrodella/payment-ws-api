@@ -14,22 +14,22 @@ namespace Lyranetwork\Model;
 class CreateToken
 {
     /**
-     * @var \Lyranetwork\CommonRequest $commonRequest
+     * @var \Lyranetwork\Model\CommonRequest $commonRequest
      */
     private $commonRequest = null;
 
     /**
-     * @var \Lyranetwork\CardRequest $cardRequest
+     * @var \Lyranetwork\Model\CardRequest $cardRequest
      */
     private $cardRequest = null;
 
     /**
-     * @var \Lyranetwork\CustomerRequest $customerRequest
+     * @var \Lyranetwork\Model\CustomerRequest $customerRequest
      */
     private $customerRequest = null;
 
     /**
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function getCommonRequest()
     {
@@ -37,8 +37,8 @@ class CreateToken
     }
 
     /**
-     * @param \Lyranetwork\CommonRequest $commonRequest
-     * @return \Lyranetwork\CreateToken
+     * @param \Lyranetwork\Model\CommonRequest $commonRequest
+     * @return \Lyranetwork\Model\CreateToken
      */
     public function setCommonRequest($commonRequest)
     {
@@ -47,7 +47,7 @@ class CreateToken
     }
 
     /**
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function getCardRequest()
     {
@@ -55,8 +55,8 @@ class CreateToken
     }
 
     /**
-     * @param \Lyranetwork\CardRequest $cardRequest
-     * @return \Lyranetwork\CreateToken
+     * @param \Lyranetwork\Model\CardRequest $cardRequest
+     * @return \Lyranetwork\Model\CreateToken
      */
     public function setCardRequest($cardRequest)
     {
@@ -65,7 +65,7 @@ class CreateToken
     }
 
     /**
-     * @return \Lyranetwork\CustomerRequest
+     * @return \Lyranetwork\Model\CustomerRequest
      */
     public function getCustomerRequest()
     {
@@ -73,8 +73,8 @@ class CreateToken
     }
 
     /**
-     * @param \Lyranetwork\CustomerRequest $customerRequest
-     * @return \Lyranetwork\CreateToken
+     * @param \Lyranetwork\Model\CustomerRequest $customerRequest
+     * @return \Lyranetwork\Model\CreateToken
      */
     public function setCustomerRequest($customerRequest)
     {

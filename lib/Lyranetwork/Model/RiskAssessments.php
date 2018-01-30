@@ -28,7 +28,7 @@ class RiskAssessments
 
     /**
      * @param string $results
-     * @return \Lyranetwork\RiskAssessments
+     * @return \Lyranetwork\Model\RiskAssessments
      */
     public function setResults($results)
     {

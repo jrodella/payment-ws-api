@@ -68,7 +68,7 @@ class AuthenticationResultData
 
     /**
      * @param string $brand
-     * @return \Lyranetwork\AuthenticationResultData
+     * @return \Lyranetwork\Model\AuthenticationResultData
      */
     public function setBrand($brand)
     {
@@ -86,7 +86,7 @@ class AuthenticationResultData
 
     /**
      * @param string $enrolled
-     * @return \Lyranetwork\AuthenticationResultData
+     * @return \Lyranetwork\Model\AuthenticationResultData
      */
     public function setEnrolled($enrolled)
     {
@@ -104,7 +104,7 @@ class AuthenticationResultData
 
     /**
      * @param string $status
-     * @return \Lyranetwork\AuthenticationResultData
+     * @return \Lyranetwork\Model\AuthenticationResultData
      */
     public function setStatus($status)
     {
@@ -122,7 +122,7 @@ class AuthenticationResultData
 
     /**
      * @param string $eci
-     * @return \Lyranetwork\AuthenticationResultData
+     * @return \Lyranetwork\Model\AuthenticationResultData
      */
     public function setEci($eci)
     {
@@ -140,7 +140,7 @@ class AuthenticationResultData
 
     /**
      * @param string $xid
-     * @return \Lyranetwork\AuthenticationResultData
+     * @return \Lyranetwork\Model\AuthenticationResultData
      */
     public function setXid($xid)
     {
@@ -158,7 +158,7 @@ class AuthenticationResultData
 
     /**
      * @param string $cavv
-     * @return \Lyranetwork\AuthenticationResultData
+     * @return \Lyranetwork\Model\AuthenticationResultData
      */
     public function setCavv($cavv)
     {
@@ -176,7 +176,7 @@ class AuthenticationResultData
 
     /**
      * @param string $cavvAlgorithm
-     * @return \Lyranetwork\AuthenticationResultData
+     * @return \Lyranetwork\Model\AuthenticationResultData
      */
     public function setCavvAlgorithm($cavvAlgorithm)
     {
@@ -194,7 +194,7 @@ class AuthenticationResultData
 
     /**
      * @param string $signValid
-     * @return \Lyranetwork\AuthenticationResultData
+     * @return \Lyranetwork\Model\AuthenticationResultData
      */
     public function setSignValid($signValid)
     {
@@ -212,7 +212,7 @@ class AuthenticationResultData
 
     /**
      * @param string $transactionCondition
-     * @return \Lyranetwork\AuthenticationResultData
+     * @return \Lyranetwork\Model\AuthenticationResultData
      */
     public function setTransactionCondition($transactionCondition)
     {

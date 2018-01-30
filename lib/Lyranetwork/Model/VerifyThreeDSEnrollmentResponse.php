@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class VerifyThreeDSEnrollmentResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\VerifyThreeDSEnrollmentResult $verifyThreeDSEnrollmentResult
+     * @var \Lyranetwork\Model\VerifyThreeDSEnrollmentResult $verifyThreeDSEnrollmentResult
      */
     private $verifyThreeDSEnrollmentResult = null;
 
     /**
-     * @return \Lyranetwork\VerifyThreeDSEnrollmentResult
+     * @return \Lyranetwork\Model\VerifyThreeDSEnrollmentResult
      */
     public function getVerifyThreeDSEnrollmentResult()
     {
@@ -27,8 +27,8 @@ class VerifyThreeDSEnrollmentResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\VerifyThreeDSEnrollmentResult $verifyThreeDSEnrollmentResult
-     * @return \Lyranetwork\VerifyThreeDSEnrollmentResponse
+     * @param \Lyranetwork\Model\VerifyThreeDSEnrollmentResult $verifyThreeDSEnrollmentResult
+     * @return \Lyranetwork\Model\VerifyThreeDSEnrollmentResponse
      */
     public function setVerifyThreeDSEnrollmentResult($verifyThreeDSEnrollmentResult)
     {

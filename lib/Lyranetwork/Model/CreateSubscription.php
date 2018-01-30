@@ -14,27 +14,27 @@ namespace Lyranetwork\Model;
 class CreateSubscription
 {
     /**
-     * @var \Lyranetwork\CommonRequest $commonRequest
+     * @var \Lyranetwork\Model\CommonRequest $commonRequest
      */
     private $commonRequest = null;
 
     /**
-     * @var \Lyranetwork\OrderRequest $orderRequest
+     * @var \Lyranetwork\Model\OrderRequest $orderRequest
      */
     private $orderRequest = null;
 
     /**
-     * @var \Lyranetwork\SubscriptionRequest $subscriptionRequest
+     * @var \Lyranetwork\Model\SubscriptionRequest $subscriptionRequest
      */
     private $subscriptionRequest = null;
 
     /**
-     * @var \Lyranetwork\CardRequest $cardRequest
+     * @var \Lyranetwork\Model\CardRequest $cardRequest
      */
     private $cardRequest = null;
 
     /**
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function getCommonRequest()
     {
@@ -42,8 +42,8 @@ class CreateSubscription
     }
 
     /**
-     * @param \Lyranetwork\CommonRequest $commonRequest
-     * @return \Lyranetwork\CreateSubscription
+     * @param \Lyranetwork\Model\CommonRequest $commonRequest
+     * @return \Lyranetwork\Model\CreateSubscription
      */
     public function setCommonRequest($commonRequest)
     {
@@ -52,7 +52,7 @@ class CreateSubscription
     }
 
     /**
-     * @return \Lyranetwork\OrderRequest
+     * @return \Lyranetwork\Model\OrderRequest
      */
     public function getOrderRequest()
     {
@@ -60,8 +60,8 @@ class CreateSubscription
     }
 
     /**
-     * @param \Lyranetwork\OrderRequest $orderRequest
-     * @return \Lyranetwork\CreateSubscription
+     * @param \Lyranetwork\Model\OrderRequest $orderRequest
+     * @return \Lyranetwork\Model\CreateSubscription
      */
     public function setOrderRequest($orderRequest)
     {
@@ -70,7 +70,7 @@ class CreateSubscription
     }
 
     /**
-     * @return \Lyranetwork\SubscriptionRequest
+     * @return \Lyranetwork\Model\SubscriptionRequest
      */
     public function getSubscriptionRequest()
     {
@@ -78,8 +78,8 @@ class CreateSubscription
     }
 
     /**
-     * @param \Lyranetwork\SubscriptionRequest $subscriptionRequest
-     * @return \Lyranetwork\CreateSubscription
+     * @param \Lyranetwork\Model\SubscriptionRequest $subscriptionRequest
+     * @return \Lyranetwork\Model\CreateSubscription
      */
     public function setSubscriptionRequest($subscriptionRequest)
     {
@@ -88,7 +88,7 @@ class CreateSubscription
     }
 
     /**
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function getCardRequest()
     {
@@ -96,8 +96,8 @@ class CreateSubscription
     }
 
     /**
-     * @param \Lyranetwork\CardRequest $cardRequest
-     * @return \Lyranetwork\CreateSubscription
+     * @param \Lyranetwork\Model\CardRequest $cardRequest
+     * @return \Lyranetwork\Model\CreateSubscription
      */
     public function setCardRequest($cardRequest)
     {

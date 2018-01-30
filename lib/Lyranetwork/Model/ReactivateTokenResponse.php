@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class ReactivateTokenResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\ReactivateTokenResult $reactivateTokenResult
+     * @var \Lyranetwork\Model\ReactivateTokenResult $reactivateTokenResult
      */
     private $reactivateTokenResult = null;
 
     /**
-     * @return \Lyranetwork\ReactivateTokenResult
+     * @return \Lyranetwork\Model\ReactivateTokenResult
      */
     public function getReactivateTokenResult()
     {
@@ -27,8 +27,8 @@ class ReactivateTokenResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\ReactivateTokenResult $reactivateTokenResult
-     * @return \Lyranetwork\ReactivateTokenResponse
+     * @param \Lyranetwork\Model\ReactivateTokenResult $reactivateTokenResult
+     * @return \Lyranetwork\Model\ReactivateTokenResponse
      */
     public function setReactivateTokenResult($reactivateTokenResult)
     {

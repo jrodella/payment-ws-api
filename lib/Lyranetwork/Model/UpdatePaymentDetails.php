@@ -14,17 +14,17 @@ namespace Lyranetwork\Model;
 class UpdatePaymentDetails
 {
     /**
-     * @var \Lyranetwork\QueryRequest $queryRequest
+     * @var \Lyranetwork\Model\QueryRequest $queryRequest
      */
     private $queryRequest = null;
 
     /**
-     * @var \Lyranetwork\ShoppingCartRequest $shoppingCartRequest
+     * @var \Lyranetwork\Model\ShoppingCartRequest $shoppingCartRequest
      */
     private $shoppingCartRequest = null;
 
     /**
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function getQueryRequest()
     {
@@ -32,8 +32,8 @@ class UpdatePaymentDetails
     }
 
     /**
-     * @param \Lyranetwork\QueryRequest $queryRequest
-     * @return \Lyranetwork\UpdatePaymentDetails
+     * @param \Lyranetwork\Model\QueryRequest $queryRequest
+     * @return \Lyranetwork\Model\UpdatePaymentDetails
      */
     public function setQueryRequest($queryRequest)
     {
@@ -42,7 +42,7 @@ class UpdatePaymentDetails
     }
 
     /**
-     * @return \Lyranetwork\ShoppingCartRequest
+     * @return \Lyranetwork\Model\ShoppingCartRequest
      */
     public function getShoppingCartRequest()
     {
@@ -50,8 +50,8 @@ class UpdatePaymentDetails
     }
 
     /**
-     * @param \Lyranetwork\ShoppingCartRequest $shoppingCartRequest
-     * @return \Lyranetwork\UpdatePaymentDetails
+     * @param \Lyranetwork\Model\ShoppingCartRequest $shoppingCartRequest
+     * @return \Lyranetwork\Model\UpdatePaymentDetails
      */
     public function setShoppingCartRequest($shoppingCartRequest)
     {

@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class MpiExtensionRequest
 {
     /**
-     * @var \Lyranetwork\ExtInfo[] $extensionData
+     * @var \Lyranetwork\Model\ExtInfo[] $extensionData
      */
     private $extensionData = null;
 
     /**
-     * @return \Lyranetwork\ExtInfo[]
+     * @return \Lyranetwork\Model\ExtInfo[]
      */
     public function getExtensionData()
     {
@@ -27,8 +27,8 @@ class MpiExtensionRequest
     }
 
     /**
-     * @param \Lyranetwork\ExtInfo[] $extensionData
-     * @return \Lyranetwork\MpiExtensionRequest
+     * @param \Lyranetwork\Model\ExtInfo[] $extensionData
+     * @return \Lyranetwork\Model\MpiExtensionRequest
      */
     public function setExtensionData(array $extensionData = null)
     {

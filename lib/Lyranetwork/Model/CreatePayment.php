@@ -14,47 +14,47 @@ namespace Lyranetwork\Model;
 class CreatePayment
 {
     /**
-     * @var \Lyranetwork\CommonRequest $commonRequest
+     * @var \Lyranetwork\Model\CommonRequest $commonRequest
      */
     private $commonRequest = null;
 
     /**
-     * @var \Lyranetwork\ThreeDSRequest $threeDSRequest
+     * @var \Lyranetwork\Model\ThreeDSRequest $threeDSRequest
      */
     private $threeDSRequest = null;
 
     /**
-     * @var \Lyranetwork\PaymentRequest $paymentRequest
+     * @var \Lyranetwork\Model\PaymentRequest $paymentRequest
      */
     private $paymentRequest = null;
 
     /**
-     * @var \Lyranetwork\OrderRequest $orderRequest
+     * @var \Lyranetwork\Model\OrderRequest $orderRequest
      */
     private $orderRequest = null;
 
     /**
-     * @var \Lyranetwork\CardRequest $cardRequest
+     * @var \Lyranetwork\Model\CardRequest $cardRequest
      */
     private $cardRequest = null;
 
     /**
-     * @var \Lyranetwork\CustomerRequest $customerRequest
+     * @var \Lyranetwork\Model\CustomerRequest $customerRequest
      */
     private $customerRequest = null;
 
     /**
-     * @var \Lyranetwork\TechRequest $techRequest
+     * @var \Lyranetwork\Model\TechRequest $techRequest
      */
     private $techRequest = null;
 
     /**
-     * @var \Lyranetwork\ShoppingCartRequest $shoppingCartRequest
+     * @var \Lyranetwork\Model\ShoppingCartRequest $shoppingCartRequest
      */
     private $shoppingCartRequest = null;
 
     /**
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function getCommonRequest()
     {
@@ -62,8 +62,8 @@ class CreatePayment
     }
 
     /**
-     * @param \Lyranetwork\CommonRequest $commonRequest
-     * @return \Lyranetwork\CreatePayment
+     * @param \Lyranetwork\Model\CommonRequest $commonRequest
+     * @return \Lyranetwork\Model\CreatePayment
      */
     public function setCommonRequest($commonRequest)
     {
@@ -72,7 +72,7 @@ class CreatePayment
     }
 
     /**
-     * @return \Lyranetwork\ThreeDSRequest
+     * @return \Lyranetwork\Model\ThreeDSRequest
      */
     public function getThreeDSRequest()
     {
@@ -80,8 +80,8 @@ class CreatePayment
     }
 
     /**
-     * @param \Lyranetwork\ThreeDSRequest $threeDSRequest
-     * @return \Lyranetwork\CreatePayment
+     * @param \Lyranetwork\Model\ThreeDSRequest $threeDSRequest
+     * @return \Lyranetwork\Model\CreatePayment
      */
     public function setThreeDSRequest($threeDSRequest)
     {
@@ -90,7 +90,7 @@ class CreatePayment
     }
 
     /**
-     * @return \Lyranetwork\PaymentRequest
+     * @return \Lyranetwork\Model\PaymentRequest
      */
     public function getPaymentRequest()
     {
@@ -98,8 +98,8 @@ class CreatePayment
     }
 
     /**
-     * @param \Lyranetwork\PaymentRequest $paymentRequest
-     * @return \Lyranetwork\CreatePayment
+     * @param \Lyranetwork\Model\PaymentRequest $paymentRequest
+     * @return \Lyranetwork\Model\CreatePayment
      */
     public function setPaymentRequest($paymentRequest)
     {
@@ -108,7 +108,7 @@ class CreatePayment
     }
 
     /**
-     * @return \Lyranetwork\OrderRequest
+     * @return \Lyranetwork\Model\OrderRequest
      */
     public function getOrderRequest()
     {
@@ -116,8 +116,8 @@ class CreatePayment
     }
 
     /**
-     * @param \Lyranetwork\OrderRequest $orderRequest
-     * @return \Lyranetwork\CreatePayment
+     * @param \Lyranetwork\Model\OrderRequest $orderRequest
+     * @return \Lyranetwork\Model\CreatePayment
      */
     public function setOrderRequest($orderRequest)
     {
@@ -126,7 +126,7 @@ class CreatePayment
     }
 
     /**
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function getCardRequest()
     {
@@ -134,8 +134,8 @@ class CreatePayment
     }
 
     /**
-     * @param \Lyranetwork\CardRequest $cardRequest
-     * @return \Lyranetwork\CreatePayment
+     * @param \Lyranetwork\Model\CardRequest $cardRequest
+     * @return \Lyranetwork\Model\CreatePayment
      */
     public function setCardRequest($cardRequest)
     {
@@ -144,7 +144,7 @@ class CreatePayment
     }
 
     /**
-     * @return \Lyranetwork\CustomerRequest
+     * @return \Lyranetwork\Model\CustomerRequest
      */
     public function getCustomerRequest()
     {
@@ -152,8 +152,8 @@ class CreatePayment
     }
 
     /**
-     * @param \Lyranetwork\CustomerRequest $customerRequest
-     * @return \Lyranetwork\CreatePayment
+     * @param \Lyranetwork\Model\CustomerRequest $customerRequest
+     * @return \Lyranetwork\Model\CreatePayment
      */
     public function setCustomerRequest($customerRequest)
     {
@@ -162,7 +162,7 @@ class CreatePayment
     }
 
     /**
-     * @return \Lyranetwork\TechRequest
+     * @return \Lyranetwork\Model\TechRequest
      */
     public function getTechRequest()
     {
@@ -170,8 +170,8 @@ class CreatePayment
     }
 
     /**
-     * @param \Lyranetwork\TechRequest $techRequest
-     * @return \Lyranetwork\CreatePayment
+     * @param \Lyranetwork\Model\TechRequest $techRequest
+     * @return \Lyranetwork\Model\CreatePayment
      */
     public function setTechRequest($techRequest)
     {
@@ -180,7 +180,7 @@ class CreatePayment
     }
 
     /**
-     * @return \Lyranetwork\ShoppingCartRequest
+     * @return \Lyranetwork\Model\ShoppingCartRequest
      */
     public function getShoppingCartRequest()
     {
@@ -188,8 +188,8 @@ class CreatePayment
     }
 
     /**
-     * @param \Lyranetwork\ShoppingCartRequest $shoppingCartRequest
-     * @return \Lyranetwork\CreatePayment
+     * @param \Lyranetwork\Model\ShoppingCartRequest $shoppingCartRequest
+     * @return \Lyranetwork\Model\CreatePayment
      */
     public function setShoppingCartRequest($shoppingCartRequest)
     {

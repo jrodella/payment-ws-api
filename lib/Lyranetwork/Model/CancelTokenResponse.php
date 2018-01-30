@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class CancelTokenResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\CancelTokenResult $cancelTokenResult
+     * @var \Lyranetwork\Model\CancelTokenResult $cancelTokenResult
      */
     private $cancelTokenResult = null;
 
     /**
-     * @return \Lyranetwork\CancelTokenResult
+     * @return \Lyranetwork\Model\CancelTokenResult
      */
     public function getCancelTokenResult()
     {
@@ -27,8 +27,8 @@ class CancelTokenResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\CancelTokenResult $cancelTokenResult
-     * @return \Lyranetwork\CancelTokenResponse
+     * @param \Lyranetwork\Model\CancelTokenResult $cancelTokenResult
+     * @return \Lyranetwork\Model\CancelTokenResponse
      */
     public function setCancelTokenResult($cancelTokenResult)
     {

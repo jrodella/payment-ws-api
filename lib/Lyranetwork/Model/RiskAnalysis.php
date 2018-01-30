@@ -24,7 +24,7 @@ class RiskAnalysis
     private $resultCode = null;
 
     /**
-     * @var \Lyranetwork\RiskAnalysisProcessingStatus $status
+     * @var \Lyranetwork\Model\RiskAnalysisProcessingStatus $status
      */
     private $status = null;
 
@@ -34,7 +34,7 @@ class RiskAnalysis
     private $requestId = null;
 
     /**
-     * @var \Lyranetwork\ExtInfo[] $extraInfo
+     * @var \Lyranetwork\Model\ExtInfo[] $extraInfo
      */
     private $extraInfo = null;
 
@@ -53,7 +53,7 @@ class RiskAnalysis
 
     /**
      * @param string $score
-     * @return \Lyranetwork\RiskAnalysis
+     * @return \Lyranetwork\Model\RiskAnalysis
      */
     public function setScore($score)
     {
@@ -71,7 +71,7 @@ class RiskAnalysis
 
     /**
      * @param string $resultCode
-     * @return \Lyranetwork\RiskAnalysis
+     * @return \Lyranetwork\Model\RiskAnalysis
      */
     public function setResultCode($resultCode)
     {
@@ -80,7 +80,7 @@ class RiskAnalysis
     }
 
     /**
-     * @return \Lyranetwork\RiskAnalysisProcessingStatus
+     * @return \Lyranetwork\Model\RiskAnalysisProcessingStatus
      */
     public function getStatus()
     {
@@ -88,8 +88,8 @@ class RiskAnalysis
     }
 
     /**
-     * @param \Lyranetwork\RiskAnalysisProcessingStatus $status
-     * @return \Lyranetwork\RiskAnalysis
+     * @param \Lyranetwork\Model\RiskAnalysisProcessingStatus $status
+     * @return \Lyranetwork\Model\RiskAnalysis
      */
     public function setStatus($status)
     {
@@ -107,7 +107,7 @@ class RiskAnalysis
 
     /**
      * @param string $requestId
-     * @return \Lyranetwork\RiskAnalysis
+     * @return \Lyranetwork\Model\RiskAnalysis
      */
     public function setRequestId($requestId)
     {
@@ -116,7 +116,7 @@ class RiskAnalysis
     }
 
     /**
-     * @return \Lyranetwork\ExtInfo[]
+     * @return \Lyranetwork\Model\ExtInfo[]
      */
     public function getExtraInfo()
     {
@@ -124,8 +124,8 @@ class RiskAnalysis
     }
 
     /**
-     * @param \Lyranetwork\ExtInfo[] $extraInfo
-     * @return \Lyranetwork\RiskAnalysis
+     * @param \Lyranetwork\Model\ExtInfo[] $extraInfo
+     * @return \Lyranetwork\Model\RiskAnalysis
      */
     public function setExtraInfo(array $extraInfo = null)
     {
@@ -143,7 +143,7 @@ class RiskAnalysis
 
     /**
      * @param string $fingerPrintId
-     * @return \Lyranetwork\RiskAnalysis
+     * @return \Lyranetwork\Model\RiskAnalysis
      */
     public function setFingerPrintId($fingerPrintId)
     {

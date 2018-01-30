@@ -73,7 +73,7 @@ class CardRequest
 
     /**
      * @param string $number
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function setNumber($number)
     {
@@ -91,7 +91,7 @@ class CardRequest
 
     /**
      * @param string $scheme
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function setScheme($scheme)
     {
@@ -109,7 +109,7 @@ class CardRequest
 
     /**
      * @param int $expiryMonth
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function setExpiryMonth($expiryMonth)
     {
@@ -127,7 +127,7 @@ class CardRequest
 
     /**
      * @param int $expiryYear
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function setExpiryYear($expiryYear)
     {
@@ -145,7 +145,7 @@ class CardRequest
 
     /**
      * @param string $cardSecurityCode
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function setCardSecurityCode($cardSecurityCode)
     {
@@ -171,7 +171,7 @@ class CardRequest
 
     /**
      * @param \DateTime $cardHolderBirthDay
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function setCardHolderBirthDay(\DateTime $cardHolderBirthDay = null)
     {
@@ -193,7 +193,7 @@ class CardRequest
 
     /**
      * @param string $paymentToken
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function setPaymentToken($paymentToken)
     {
@@ -211,7 +211,7 @@ class CardRequest
 
     /**
      * @param string $cardHolderName
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function setCardHolderName($cardHolderName)
     {
@@ -229,7 +229,7 @@ class CardRequest
 
     /**
      * @param string $proofOfIdType
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function setProofOfIdType($proofOfIdType)
     {
@@ -247,7 +247,7 @@ class CardRequest
 
     /**
      * @param string $proofOfIdNumber
-     * @return \Lyranetwork\CardRequest
+     * @return \Lyranetwork\Model\CardRequest
      */
     public function setProofOfIdNumber($proofOfIdNumber)
     {

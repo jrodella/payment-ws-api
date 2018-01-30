@@ -14,22 +14,22 @@ namespace Lyranetwork\Model;
 class FraudManagementResponse
 {
     /**
-     * @var \Lyranetwork\RiskControl[] $riskControl
+     * @var \Lyranetwork\Model\RiskControl[] $riskControl
      */
     private $riskControl = null;
 
     /**
-     * @var \Lyranetwork\RiskAnalysis[] $riskAnalysis
+     * @var \Lyranetwork\Model\RiskAnalysis[] $riskAnalysis
      */
     private $riskAnalysis = null;
 
     /**
-     * @var \Lyranetwork\RiskAssessments $riskAssessments
+     * @var \Lyranetwork\Model\RiskAssessments $riskAssessments
      */
     private $riskAssessments = null;
 
     /**
-     * @return \Lyranetwork\RiskControl[]
+     * @return \Lyranetwork\Model\RiskControl[]
      */
     public function getRiskControl()
     {
@@ -37,8 +37,8 @@ class FraudManagementResponse
     }
 
     /**
-     * @param \Lyranetwork\RiskControl[] $riskControl
-     * @return \Lyranetwork\FraudManagementResponse
+     * @param \Lyranetwork\Model\RiskControl[] $riskControl
+     * @return \Lyranetwork\Model\FraudManagementResponse
      */
     public function setRiskControl(array $riskControl = null)
     {
@@ -47,7 +47,7 @@ class FraudManagementResponse
     }
 
     /**
-     * @return \Lyranetwork\RiskAnalysis[]
+     * @return \Lyranetwork\Model\RiskAnalysis[]
      */
     public function getRiskAnalysis()
     {
@@ -55,8 +55,8 @@ class FraudManagementResponse
     }
 
     /**
-     * @param \Lyranetwork\RiskAnalysis[] $riskAnalysis
-     * @return \Lyranetwork\FraudManagementResponse
+     * @param \Lyranetwork\Model\RiskAnalysis[] $riskAnalysis
+     * @return \Lyranetwork\Model\FraudManagementResponse
      */
     public function setRiskAnalysis(array $riskAnalysis = null)
     {
@@ -65,7 +65,7 @@ class FraudManagementResponse
     }
 
     /**
-     * @return \Lyranetwork\RiskAssessments
+     * @return \Lyranetwork\Model\RiskAssessments
      */
     public function getRiskAssessments()
     {
@@ -73,8 +73,8 @@ class FraudManagementResponse
     }
 
     /**
-     * @param \Lyranetwork\RiskAssessments $riskAssessments
-     * @return \Lyranetwork\FraudManagementResponse
+     * @param \Lyranetwork\Model\RiskAssessments $riskAssessments
+     * @return \Lyranetwork\Model\FraudManagementResponse
      */
     public function setRiskAssessments($riskAssessments)
     {

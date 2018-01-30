@@ -53,7 +53,7 @@ class AuthenticationRequestData
 
     /**
      * @param string $threeDSAcctId
-     * @return \Lyranetwork\AuthenticationRequestData
+     * @return \Lyranetwork\Model\AuthenticationRequestData
      */
     public function setThreeDSAcctId($threeDSAcctId)
     {
@@ -71,7 +71,7 @@ class AuthenticationRequestData
 
     /**
      * @param string $threeDSAcsUrl
-     * @return \Lyranetwork\AuthenticationRequestData
+     * @return \Lyranetwork\Model\AuthenticationRequestData
      */
     public function setThreeDSAcsUrl($threeDSAcsUrl)
     {
@@ -89,7 +89,7 @@ class AuthenticationRequestData
 
     /**
      * @param string $threeDSBrand
-     * @return \Lyranetwork\AuthenticationRequestData
+     * @return \Lyranetwork\Model\AuthenticationRequestData
      */
     public function setThreeDSBrand($threeDSBrand)
     {
@@ -107,7 +107,7 @@ class AuthenticationRequestData
 
     /**
      * @param string $threeDSEncodedPareq
-     * @return \Lyranetwork\AuthenticationRequestData
+     * @return \Lyranetwork\Model\AuthenticationRequestData
      */
     public function setThreeDSEncodedPareq($threeDSEncodedPareq)
     {
@@ -125,7 +125,7 @@ class AuthenticationRequestData
 
     /**
      * @param string $threeDSEnrolled
-     * @return \Lyranetwork\AuthenticationRequestData
+     * @return \Lyranetwork\Model\AuthenticationRequestData
      */
     public function setThreeDSEnrolled($threeDSEnrolled)
     {
@@ -143,7 +143,7 @@ class AuthenticationRequestData
 
     /**
      * @param string $threeDSRequestId
-     * @return \Lyranetwork\AuthenticationRequestData
+     * @return \Lyranetwork\Model\AuthenticationRequestData
      */
     public function setThreeDSRequestId($threeDSRequestId)
     {

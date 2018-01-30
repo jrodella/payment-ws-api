@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class CreateSubscriptionResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\CreateSubscriptionResult $createSubscriptionResult
+     * @var \Lyranetwork\Model\CreateSubscriptionResult $createSubscriptionResult
      */
     private $createSubscriptionResult = null;
 
     /**
-     * @return \Lyranetwork\CreateSubscriptionResult
+     * @return \Lyranetwork\Model\CreateSubscriptionResult
      */
     public function getCreateSubscriptionResult()
     {
@@ -27,8 +27,8 @@ class CreateSubscriptionResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\CreateSubscriptionResult $createSubscriptionResult
-     * @return \Lyranetwork\CreateSubscriptionResponse
+     * @param \Lyranetwork\Model\CreateSubscriptionResult $createSubscriptionResult
+     * @return \Lyranetwork\Model\CreateSubscriptionResponse
      */
     public function setCreateSubscriptionResult($createSubscriptionResult)
     {

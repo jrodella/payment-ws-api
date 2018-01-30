@@ -43,7 +43,7 @@ class CommonRequest
 
     /**
      * @param string $paymentSource
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function setPaymentSource($paymentSource)
     {
@@ -69,7 +69,7 @@ class CommonRequest
 
     /**
      * @param \DateTime $submissionDate
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function setSubmissionDate(\DateTime $submissionDate = null)
     {
@@ -91,7 +91,7 @@ class CommonRequest
 
     /**
      * @param string $contractNumber
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function setContractNumber($contractNumber)
     {
@@ -109,7 +109,7 @@ class CommonRequest
 
     /**
      * @param string $comment
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function setComment($comment)
     {

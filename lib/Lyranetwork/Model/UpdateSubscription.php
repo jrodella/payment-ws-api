@@ -14,22 +14,22 @@ namespace Lyranetwork\Model;
 class UpdateSubscription
 {
     /**
-     * @var \Lyranetwork\CommonRequest $commonRequest
+     * @var \Lyranetwork\Model\CommonRequest $commonRequest
      */
     private $commonRequest = null;
 
     /**
-     * @var \Lyranetwork\QueryRequest $queryRequest
+     * @var \Lyranetwork\Model\QueryRequest $queryRequest
      */
     private $queryRequest = null;
 
     /**
-     * @var \Lyranetwork\SubscriptionRequest $subscriptionRequest
+     * @var \Lyranetwork\Model\SubscriptionRequest $subscriptionRequest
      */
     private $subscriptionRequest = null;
 
     /**
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function getCommonRequest()
     {
@@ -37,8 +37,8 @@ class UpdateSubscription
     }
 
     /**
-     * @param \Lyranetwork\CommonRequest $commonRequest
-     * @return \Lyranetwork\UpdateSubscription
+     * @param \Lyranetwork\Model\CommonRequest $commonRequest
+     * @return \Lyranetwork\Model\UpdateSubscription
      */
     public function setCommonRequest($commonRequest)
     {
@@ -47,7 +47,7 @@ class UpdateSubscription
     }
 
     /**
-     * @return \Lyranetwork\QueryRequest
+     * @return \Lyranetwork\Model\QueryRequest
      */
     public function getQueryRequest()
     {
@@ -55,8 +55,8 @@ class UpdateSubscription
     }
 
     /**
-     * @param \Lyranetwork\QueryRequest $queryRequest
-     * @return \Lyranetwork\UpdateSubscription
+     * @param \Lyranetwork\Model\QueryRequest $queryRequest
+     * @return \Lyranetwork\Model\UpdateSubscription
      */
     public function setQueryRequest($queryRequest)
     {
@@ -65,7 +65,7 @@ class UpdateSubscription
     }
 
     /**
-     * @return \Lyranetwork\SubscriptionRequest
+     * @return \Lyranetwork\Model\SubscriptionRequest
      */
     public function getSubscriptionRequest()
     {
@@ -73,8 +73,8 @@ class UpdateSubscription
     }
 
     /**
-     * @param \Lyranetwork\SubscriptionRequest $subscriptionRequest
-     * @return \Lyranetwork\UpdateSubscription
+     * @param \Lyranetwork\Model\SubscriptionRequest $subscriptionRequest
+     * @return \Lyranetwork\Model\UpdateSubscription
      */
     public function setSubscriptionRequest($subscriptionRequest)
     {

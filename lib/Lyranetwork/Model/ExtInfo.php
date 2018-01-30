@@ -33,7 +33,7 @@ class ExtInfo
 
     /**
      * @param string $key
-     * @return \Lyranetwork\ExtInfo
+     * @return \Lyranetwork\Model\ExtInfo
      */
     public function setKey($key)
     {
@@ -51,7 +51,7 @@ class ExtInfo
 
     /**
      * @param string $value
-     * @return \Lyranetwork\ExtInfo
+     * @return \Lyranetwork\Model\ExtInfo
      */
     public function setValue($value)
     {

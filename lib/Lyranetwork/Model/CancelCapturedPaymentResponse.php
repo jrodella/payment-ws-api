@@ -14,12 +14,12 @@ namespace Lyranetwork\Model;
 class CancelCapturedPaymentResponse extends WsResponse
 {
     /**
-     * @var \Lyranetwork\CancelCapturedPaymentResult $cancelCapturedPaymentResult
+     * @var \Lyranetwork\Model\CancelCapturedPaymentResult $cancelCapturedPaymentResult
      */
     private $cancelCapturedPaymentResult = null;
 
     /**
-     * @return \Lyranetwork\CancelCapturedPaymentResult
+     * @return \Lyranetwork\Model\CancelCapturedPaymentResult
      */
     public function getCancelCapturedPaymentResult()
     {
@@ -27,8 +27,8 @@ class CancelCapturedPaymentResponse extends WsResponse
     }
 
     /**
-     * @param \Lyranetwork\CancelCapturedPaymentResult $cancelCapturedPaymentResult
-     * @return \Lyranetwork\CancelCapturedPaymentResponse
+     * @param \Lyranetwork\Model\CancelCapturedPaymentResult $cancelCapturedPaymentResult
+     * @return \Lyranetwork\Model\CancelCapturedPaymentResponse
      */
     public function setCancelCapturedPaymentResult($cancelCapturedPaymentResult)
     {

@@ -33,7 +33,7 @@ class RiskControl
 
     /**
      * @param string $name
-     * @return \Lyranetwork\RiskControl
+     * @return \Lyranetwork\Model\RiskControl
      */
     public function setName($name)
     {
@@ -51,7 +51,7 @@ class RiskControl
 
     /**
      * @param string $result
-     * @return \Lyranetwork\RiskControl
+     * @return \Lyranetwork\Model\RiskControl
      */
     public function setResult($result)
     {

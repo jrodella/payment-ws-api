@@ -14,22 +14,22 @@ namespace Lyranetwork\Model;
 class CreateTokenByIban
 {
     /**
-     * @var \Lyranetwork\CommonRequest $commonRequest
+     * @var \Lyranetwork\Model\CommonRequest $commonRequest
      */
     private $commonRequest = null;
 
     /**
-     * @var \Lyranetwork\IbanRequest $ibanRequest
+     * @var \Lyranetwork\Model\IbanRequest $ibanRequest
      */
     private $ibanRequest = null;
 
     /**
-     * @var \Lyranetwork\CustomerRequest $customerRequest
+     * @var \Lyranetwork\Model\CustomerRequest $customerRequest
      */
     private $customerRequest = null;
 
     /**
-     * @return \Lyranetwork\CommonRequest
+     * @return \Lyranetwork\Model\CommonRequest
      */
     public function getCommonRequest()
     {
@@ -37,8 +37,8 @@ class CreateTokenByIban
     }
 
     /**
-     * @param \Lyranetwork\CommonRequest $commonRequest
-     * @return \Lyranetwork\CreateTokenByIban
+     * @param \Lyranetwork\Model\CommonRequest $commonRequest
+     * @return \Lyranetwork\Model\CreateTokenByIban
      */
     public function setCommonRequest($commonRequest)
     {
@@ -47,7 +47,7 @@ class CreateTokenByIban
     }
 
     /**
-     * @return \Lyranetwork\IbanRequest
+     * @return \Lyranetwork\Model\IbanRequest
      */
     public function getIbanRequest()
     {
@@ -55,8 +55,8 @@ class CreateTokenByIban
     }
 
     /**
-     * @param \Lyranetwork\IbanRequest $ibanRequest
-     * @return \Lyranetwork\CreateTokenByIban
+     * @param \Lyranetwork\Model\IbanRequest $ibanRequest
+     * @return \Lyranetwork\Model\CreateTokenByIban
      */
     public function setIbanRequest($ibanRequest)
     {
@@ -65,7 +65,7 @@ class CreateTokenByIban
     }
 
     /**
-     * @return \Lyranetwork\CustomerRequest
+     * @return \Lyranetwork\Model\CustomerRequest
      */
     public function getCustomerRequest()
     {
@@ -73,8 +73,8 @@ class CreateTokenByIban
     }
 
     /**
-     * @param \Lyranetwork\CustomerRequest $customerRequest
-     * @return \Lyranetwork\CreateTokenByIban
+     * @param \Lyranetwork\Model\CustomerRequest $customerRequest
+     * @return \Lyranetwork\Model\CreateTokenByIban
      */
     public function setCustomerRequest($customerRequest)
     {
