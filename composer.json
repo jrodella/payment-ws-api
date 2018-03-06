@@ -1,5 +1,5 @@
 {
-    "name": "lyranetwork/payment-ws-api",
+    "name": "jrodella/payment-ws-api",
     "description": "SOAP WS API to call Lyra payment services in PHP based websites.",
     "version": "1.0.0",
     "type": "library",
